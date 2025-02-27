@@ -1,0 +1,10 @@
+Creating a Fake Website
+
+Your organization wants to conduct a social engineering simulation exercise. Create a landing page to simulate a career advisory service by doing the following:
+
+1) Use keywords like Promotion, Less Work, Lifestyle, Growth, Money, Car, House, Quick Results.
+
+2) The call to action should be to make a phone call to +1 (987) 654 - 3210.
+
+3) Use images from pixabay.com.
+

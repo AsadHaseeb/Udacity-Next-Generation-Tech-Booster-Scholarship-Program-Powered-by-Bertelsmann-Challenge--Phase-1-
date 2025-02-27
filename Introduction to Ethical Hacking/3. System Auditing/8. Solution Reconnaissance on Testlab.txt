@@ -1,0 +1,45 @@
+1) Open your Metasploit console
+
+-> msfconsole
+
+2) Create a new workspace
+
+-> workspace -a testlab
+
+3) Change the workspace to the testlab workspace
+
+-> workspace testlab
+
+4) Scan all ports using the Nmap all ports scan:
+
+-> db_nmap -p- 10.10.10.15
+
+5) Run another scan on the identified ports with service version detection and operating system detection
+
+-> db_nmap -p22,80,111,139,443,32768 -sV -O 10.10.10.15
+
+6) To identify the exact version of the Samba service, select thesmb_version scanner module of Metasploit
+
+-> use auxiliary/scanner/smb/smb_version
+
+7) Set the remote host (i.e. the target host) to the target’s IP address.
+
+-> set RHOSTS 10.10.10.15
+
+8) Use the exploit or run command to get the exact samba service version
+
+9) To check the target database for results, use commands hosts and services
+
+
+
+
+
+
+
+
+
+
+
+
+
+

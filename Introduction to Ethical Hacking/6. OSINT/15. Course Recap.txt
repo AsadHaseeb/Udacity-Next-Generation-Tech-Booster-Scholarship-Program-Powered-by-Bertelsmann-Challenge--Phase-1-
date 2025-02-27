@@ -1,0 +1,121 @@
+What We Covered In This Course
+
+Awesome! You have finished all of the lessons in this course. Let’s review our journey.
+
+Vulnerability Management
+
+In this lesson we:
+
+1) Learned how automated tools are used for vulnerability scanning.
+2) Used Nessus to configure organizational policies and schedule scans.
+3) Exported reports and exported data for processing by other tools.
+4) Managed data to prioritize risk and manage response.
+5) Calculated risk scores and assigned risk ratings manually using the CVSS common vulnerability scoring system.
+6) Uses a CVSS vector to map the values on the NIST CVSS calculator.
+7) Discussed false positives and false negatives and the limitations of automated scanning.
+
+System Auditing
+
+In this lesson we:
+
+1) Used test scopes to understand the context and objective, review the guidelines, and understand the limits of a specific test.
+
+2) Learned how to gather information and organize information about our target using NMap and the Metasploit Framework.
+
+3) Used the information we gathered to research existing vulnerabilities and find their exploits.
+
+4) Explored CVE’s and exploit codes, including proof of concept, public exploits, and commercial exploits.
+
+5) Validated vulnerabilities by executing exploits.
+
+6) Learned about how to write an effective report to share our results
+
+7) Explored why some dangerous exploits are intentionally bugged to make them more difficult to use.
+
+Application Auditing
+
+In this lesson we:
+
+1) Learned about OWASP WSTG methodology, including how to use the guide and perform tests.
+2) Sent an HTTP request to a web application and analyzed the response codes.
+3) Used Burp Suite, a semi-automated tool to reduce our manual workload and increase testing speed.
+4) Learned how to use fully automated tools to quickly test thousands of predefined test cases for us in a matter of minutes.
+5) Discussed the importance of continuous learning and learned about how many things there are to hack and test!
+
+Social Engineering
+
+In this lesson we:
+
+1) Learned how malicious hackers take advantage of opportunities in human psychology to influence people to take actions that open vulnerabilities.
+2) Conducted a phishing simulation campaign using the GoPhish Framework.
+3) Learned about how to create and use malware using Metasploit.
+4) Created a persuasive landing page to entice people to take a specific action.
+5) Discussed the ethics of Social Engineering and how to use social engineering to protect an organization without hurting people.
+
+OSINT
+
+In this lesson we:
+
+1) Used Exploratory Link Analysis to gather OSINT (open-source intelligence)
+2) Mined data using the OSINT framework to find data sources.
+3) Used Maltego to map our data, build links, establish relationships, grouping data into collections, and take notes about the data.
+4) Analyzed links using the Tree, Universe, and Organic models to discover new information and build conclusions.
+5) Learned how OSINT can also be used to target hackers and uncover their identities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

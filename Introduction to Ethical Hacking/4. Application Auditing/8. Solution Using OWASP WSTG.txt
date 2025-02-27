@@ -1,0 +1,108 @@
+Learning About The Test
+
+Getting Started:
+
+1) Find the page for WSTG-INPV-02 (Testing for Stored Cross Site Scripting) on OWASP WSTG 4.1(https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.html)
+
+2) Review the Test Summary
+
+3) Review Black-Box Testing in the How to Test section
+
+4) Explore the sbva.local application to find a page with an input form as required by the black-box testing approach. http://sbva.local/create.php seems to be a perfect candidate for testing XSS because it is storing user inputs and also rendering them as HTML code in a table displayed on the home page.
+
+Testing For XSS:
+
+Running The Test:
+
+1) Copy the first payload from **the Testing for Stored XSS **section under the Black-Box Testing approach.
+
+2) Browse to http://sbva.local and click on the Rate Us button to open a form with input fields.
+
+aaa@aa.com&quot;&gt;&lt;script&gt;alert(document.cookie)&lt;/script&gt;
+
+3) Paste the copied payload into the form and submit.
+
+It does not work!
+
+4) Try again with the second payload in WSTG-INPV-02
+
+aaa@aa.com%22%3E%3Cscript%3Ealert(document.cookie)%3C%2Fscript%3E
+
+It still does not work!
+
+Troubleshooting:
+
+Don't worry if your troubleshooting steps didn't work and you weren't able to demonstrate the XSS vulnerability. This was a difficult challenge! But do notice the importance of persistence. Don't give up too easily!
+
+1) Use the portion of the payload starting from the script tag in the name and message field.
+
+<script>alert(document.cookie)</script>
+
+Two alerts are generated with the web session cookie value.
+
+
+2) To ensure that both of the fields are vulnerable, replace document.cookie with 1 and 2 respectively for the name and message fields.
+
+<script>alert(1)</script>
+<script>alert(2)</script>
+
+Two alerts are generated with the value 1 and 2 confirming that both fields are vulnerable
+
+Further Reading:
+
+Here is a list of hundreds of XSS payloads that you can use in your testing: XSS Payloads(https://github.com/payloadbox/xss-payload-list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

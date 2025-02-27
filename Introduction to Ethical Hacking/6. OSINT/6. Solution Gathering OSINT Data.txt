@@ -1,0 +1,93 @@
+Part I
+
+Let's Mine Some Data!
+
+I chose to do this exercise on Maltego Technologies.
+
+Step 1. Find Associated Domains
+
+To find the associated domains I:
+
+1) Ran an internet search and the organization's website at maltego.com
+
+2) Used the Find Associated Domains in One-Click tool on Pentest-Tool.com but did not find anything
+
+3) Searched for the domain on Censys.io and found another domain - paterva.com
+
+4) Recorded my findings in a spreadsheet
+
+Step 2. Find Subdomains and Physical Locations
+
+Next, I looked for any subdomains of maltego.com using FindSubDomain and added the listed subdomains to my spreadsheet.
+
+Part II
+
+Step 3: Find Hiring Requirements
+
+I found information about job postings on the Careers page of maltego.com and added those to my spreadsheet.
+
+Step 4: Find Events
+
+I checked for events on the Maltego website but did not find any.
+
+But I did find some helpful event information on LinkedIn and added that to my spreadsheet.
+
+Step 5: Find Key Employees
+
+LinkedIn was also a good source of information about key employees.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

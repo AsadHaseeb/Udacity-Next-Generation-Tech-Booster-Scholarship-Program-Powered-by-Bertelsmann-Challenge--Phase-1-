@@ -1,0 +1,63 @@
+What We Have Learned:
+
+In this lesson, we studied System Auditing and focused on six topics:
+
+Test Scopes:
+
+We learned about test scopes and how to use them while conducting a manual audit
+
+Information Gathering:
+
+We learned how to gather information and organize it in target databases using NMap and the Metasploit Framework.
+
+Researching Vulnerabilities & Exploits:
+
+We learned how to use the information we gathered to research vulnerabilities and exploits. We used CVE’s to find and understand vulnerabilities and we looked at Proof of Concept, public and commercial exploits.
+
+Executing Exploits:
+
+We learned how to execute exploits and how the process for executing public exploits is different from commercial exploits.
+
+Report Writing:
+
+We learned how to use all the information we have collected to write effective reports.
+
+Discussion On Buggy Exploits:
+
+We ended this lesson with a discussion about why exploit writers often include intentional bugs in their exploit code so only a person who understands the exploit can fix and use the exploit.
+
+In The Next Lesson, We Will Focus On:
+
+	-> OWASP WSTG
+	-> Request and Response
+	-> Semi-Automated Tools
+	-> Fully Automated Tools
+
+So Many Things To Hack!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

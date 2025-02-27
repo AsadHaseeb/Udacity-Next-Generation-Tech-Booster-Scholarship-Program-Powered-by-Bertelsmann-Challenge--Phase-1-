@@ -1,0 +1,38 @@
+Test Upload of Malicious Files:
+
+Your target for this exercise is http://sbva.local/contact on the SBVA virtual machine
+
+During the information gathering tests, your team found that the application saves all uploaded files in http://sbva.local/upload
+
+Your task is to test if the webpage is vulnerable to malicious file uploads using OWASP WSTG-BUSL-09 (Test Upload of Malicious Files)
+
+You should use Burp Suite or OWASP Zap to perform this exercise.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

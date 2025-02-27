@@ -1,0 +1,48 @@
+What We Have Learned
+
+In this lesson, we studied OSINT and focused on five topics:
+
+Exploratory Link Analysis
+
+We learned about the Exploratory Link Analysis process: about the Mine > Link > Analyze.
+
+Data Mining
+
+We looked at three categories of OSINT data: infrastructure, operations, and employees and how to mine data using the OSINT Framework.
+
+Building Links
+
+We learned how to establish links between the data we find using Maltego. With Maltego, we can manage the process and use Arrows, Collections, and Notes to establish the relationships.
+
+Analyzing Links
+
+We also learned how to analyze links using Tree, Universe, and Organic models to discover new information and build conclusions about the data we gathered.
+
+Offensive OSINT
+
+We ended this lesson with a discussion about using OSINT to target hackers to uncover their identities.
+
+I hope you had as much fun learning this as I did teaching it!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

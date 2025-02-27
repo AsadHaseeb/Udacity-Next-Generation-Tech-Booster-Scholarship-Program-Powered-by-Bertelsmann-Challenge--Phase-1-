@@ -1,0 +1,107 @@
+Models For Analyzing Data
+
+After building links, we can analyze them to discover new information and develop conclusions about what we have discovered. There are three popular models to analyze the data:
+
+	1) Tree (also known as the Hierarchical model)
+	2) Universe (also known as the Circular model)
+	3) Organic
+
+Let’s go through them one by one:
+
+Tree/Hierarchical
+
+A Tree Model is the simplest form of data analysis.
+
+1) Useful when we have to do a small scale OSINT data analysis.
+2) Connections are built from the top (the root) towards the bottom (the leaves).
+3) The higher the element, the more important it is.
+
+Universe/Circular
+
+A Universe model is a concentration-based model
+
+1) Entities form a group when they have things in common.
+2) The closer the elements are, the more links they share.
+3) Helpful for OSINT Analysis on the influence that elements have on each other.
+4) The Universe and Cirucluar names can be used interchangeably
+
+Organic
+
+The Organic Model rearranges the Circular model to provide better visibility.
+
+1) The most important elements are the center, wrapped by other elements.
+2) The more links elements share between them, the closer they get.
+3) The distance between the two groups depends on their common attributes.
+4) Used when we have a lot of data.
+
+Creating Models in Maltego
+
+Example Graph Walkthrough
+
+1) Load the example graph by clicking on Maltego Icon > Tools > Open Example Graph
+
+2) Switch to Hierarchical Layout to analyze the graph using the Tree Model
+
+3) Switch to Circular Layout to analyze the graph using the Universe Model
+
+4) Switch to Organic Layout to analyze the graph using the Organic model
+
+Tip: Use a mouse wheel or your fingers on a touchpad to zoom in and out to see more details in the chart. You can also use the overview pane to move and zoom in.
+
+New Terms
+
+Leaf: The last element in a Tree Model
+
+Organic Model: An OSINT analysis model that uses both concentration and distance structures. The distance between two concentrated groups depends on their common interests.
+
+Root: The top element in a Tree Model
+
+Tree Model: An OSINT analysis model
+
+Universe/Circular Model: An OSINT analysis model that uses a concentration structure -- the more links elements have in common, the closer they get.
+
+Further Reading
+
+If you want to read more about the layouts supported by Maltego, read the Maltego documentation for the Graph Sidebar.(https://docs.maltego.com/support/solutions/articles/15000009615-graph-sidebar#layouts-4-8--0-1) It also covers advanced options like freezing and refreshing the graph and other views.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

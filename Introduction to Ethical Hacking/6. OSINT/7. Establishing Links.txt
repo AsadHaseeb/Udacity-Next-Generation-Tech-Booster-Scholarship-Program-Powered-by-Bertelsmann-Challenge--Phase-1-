@@ -1,0 +1,103 @@
+In the real world, we often have large quantities of data and many different data types, making it difficult to see the relationships between items.
+
+Fortunately, there are specialized tools we can use to manage this data, including Maltego.
+
+Maltego has two features that can help us collect and analyze our links. Collections allow us to group multiple elements, and Notes allow us to add additional information to an element.
+
+Setting Up Maltego on the Analyst Machine
+
+1) Download Maltego Debian package from https://www.maltego.com/downloads/
+
+2) Open a terminal and navigate to the downloads directory using cd Downloads
+
+3) Install the package using dpkg -i filenamehere
+
+4) Launch Maltego by typing maltego in terminal
+
+5) Choose Maltego CE edition
+
+6) Follow the activation procedure.
+
+Note: registration is required and is one-time only.
+
+Using Maltego
+
+Example: Creating an Entity for Bob
+
+1) Open a blank graph in Maltego
+
+2) Add an entity with type as Person and data as Bob
+
+3) Add a Domain entity -** **example.com
+
+4) Add an Email entity - bob@example.com(opens in a new tab)
+
+5) Build a forward link from bob to example.com stating Bob owns example.com
+
+6) Mine more data on example.com using Maltego inbuilt transforms by right-clicking on example.com and running any of the transforms. (In the video the instructor runs a default set, but that is no longer availabe).
+
+7) Reduce the number of entities using collections and set the value as 3
+
+8) Create a forward link from example.com to bob@example.com stating 
+This email is under example.com
+
+9) Create a backward link from bob@example.com to bob stating 
+This email belongs to bob
+
+10) Create a note on bob@example.com stating 
+This email is important and we should try social engineering.
+
+New Terms
+
+Collections: A link building function used to group similar data entities based on their types
+
+Entity: A Maltego term used to denote a bit of information, including domain names, physical locations, telephone numbers, IP addresses, and much more
+
+Notes: Used to include additional information while building links in Maltego.
+
+Transforms: An automated data mining process that uses prebuilt software scripts that return information related to existing information
+
+Further Reading
+
+Maltego has a detailed post on creating links in their documentation: Creating Manual Links(https://docs.maltego.com/support/solutions/articles/15000010433-creating-manual-links)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+Getting Started With Nmap
+
+Nmap is a popular tool that is used to gather information about open ports, services running on those ports, their versions, and the operating system being used by the target.
+
+Nmap has the Nmap Scripting Engine (NSE) which provides scripts that automate tasks related to gathering specific information, for example, finding valid usernames on an SSH Server. These scripts are written by other NSE users and shared with the community
+
+We'll be using Nmap mostly to learn about the network, but** **it can also be used for other tasks including advanced version detection, backdoor detection, vulnerability, and exploit detection.
+
+Getting Started With Nmap
+
+The target IP address is mentioned as 10.10.10.20 in the video, but while experimenting you will consider the Testlab VM with IP address - 10.10.10.15.
+
+Gathering Information With Nmap
+
+1) To view the user manual, open a terminal and type
+
+nmap 10.10.10.15
+
+2) To scan a specific target, we add the IP or URL as a parameter
+
+3) Nmap scans the top 1000 ports by default. To scan a range of ports we can specify the port range using -p(port-range) or use -p- to scan all ports.
+
+nmap 10.10.10.15 -p0-65535
+
+4) Nmap scans only TCP ports by default. To scan UDP ports as well, we can specify the protocol using -sT for TCP and -sU for UDP.
+
+nmap 10.10.10.15 -p0-65535 -sT -sU
+
+5) To find versions of the service discovered, we use -sV.
+
+nmap 10.10.10.15 -p0-65535 -sT -sU -sV
+
+OS Detection & Nmap Scripting Engine:
+
+1) Use -O to find the operating system
+
+nmap 10.10.10.15 -p0-65535 -sT -sU -sV -O
+
+1) To scan a specific port, we can use -p(port-number), select an appropriate script from /usr/share/nmap/scripts directory and use --script=
+
+nmap 10.10.10.15 -p139 -sT -sU -sV -O --script=smb-enum-shares
+
+Keep in Mind...
+
+Just like any other tool, NSE can make mistakes. There will be false positives as well as false negatives. You should always manually verify the results with at least two tools.
+
+For example, if NSE shows Anonymous on FTP is allowed, you should manually try to login using an anonymous username and verify if NSE is correct.
+
+New Terms:
+
+NMap (Network Mapper): A popular open-source reconnaissance tool
+
+NSE (Nmap Scripting Engine): A tool to write and share scripts to automate a wide variety of networking tasks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

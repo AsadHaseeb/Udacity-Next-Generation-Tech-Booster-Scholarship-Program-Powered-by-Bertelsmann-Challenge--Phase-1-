@@ -1,0 +1,20 @@
+In this exercise, your goal is to establish links in the data you gathered during the Data Mining exercise.
+
+This exercise will give you a lot of practice using Maltego to add, build links, use transforms, create collections, and add notes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+Application Auditing
+
+In this lesson, we will be looking at web application auditing. We will focus on:
+
+	-> OWASP WSTG
+	-> Request and Response
+	-> Semi-Automated Tools
+	-> Fully Automated Tools
+
+We will finish this lesson by discussing the vast array of devices that can and should be audited and some best practices for keeping up in this rapidly evolving field.
+
+By the end of the lesson, you will be able to:
+
+	->Send requests to a web application and analyze the response that comes back
+	-> Test web applications using OWASP WSTG
+	-> Use semi-automated and fully automated tools
+

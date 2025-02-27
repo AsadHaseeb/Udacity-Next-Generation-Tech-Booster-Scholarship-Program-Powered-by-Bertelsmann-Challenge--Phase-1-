@@ -1,0 +1,31 @@
+Researching Vulnerabilities in Samba: 
+
+Your task is to look up the CVE and Exploits available for the samba 2.2.1a related vulnerabilities.
+
+Requirements:
+
+1) The CVSS Score should be 10.0
+
+2) The vulnerability type should be EXEC Code Overflow
+
+3) Follow the tasks given below to complete the exercise.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

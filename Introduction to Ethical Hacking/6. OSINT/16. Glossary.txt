@@ -1,0 +1,92 @@
+New Terms In This Lesson
+
+Backward links	Connections from new information to an existing information source
+
+Collections: A link building function used to group similar data entities based on their types
+
+Digital Infrastructure: Assets owned or leased by an organization to support digital operations, including email servers, websites, IP addresses, domain names, and software licenses
+
+Entity: A Maltego term used to denote a bit of information, including domain names, physical locations, telephone numbers, IP addresses, and much more
+
+Exploratory Link Analysis: A scientific approach to use OSINT to discover information leakage
+
+External Operations: An organization's operational activities related to its supply chain, distribution network and community partners
+
+Forward links: Connections from an existing information source to new information
+
+Internal Operations: An organization's operational activities related to internal systems, processes, events, and employees
+
+Leaf: The last element in a Tree Model
+
+Mining: The first step in Exploratory Link Analysis, which involves gathering information from various sources. Mining can be done on Infrastructure, Operations, and Employees.
+
+Need-to-know: An information security principle where information is available to only those who need it. The existence of the information is often hidden from those who don't need the information.
+
+Notes: Used to include additional information while building links in Maltego.
+
+Organic Model: An OSINT analysis model that uses both concentration and distance structures. The distance between two concentrated groups depends on their common interests.
+
+OSINT Framework: An online directory containing sources of OSINT hosted at https://osintframework.com
+
+Out-of-band communication: Communication done via covert, non-traditional, or unusual channels.
+
+Passive information gathering: Information gathering where the analyst has no direct interaction with the target.
+
+Physical Infrastructure: Assets owned or leased by an organization to support physical operations, including office buildings, security cameras, lighting, power supply units, furniture and fixtures, and computer systems
+
+Root: The top element in a Tree Model
+
+Transforms: An automated data mining process that uses prebuilt software scripts that return information related to existing information
+
+Tree Model: An OSINT analysis model
+
+Universe/Circular Model: An OSINT analysis model that uses a concentration structure -- the more links elements have in common, the closer they get.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

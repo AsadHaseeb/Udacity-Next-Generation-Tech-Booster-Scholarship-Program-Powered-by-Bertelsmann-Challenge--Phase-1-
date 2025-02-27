@@ -1,0 +1,106 @@
+How Do We Keep Up?
+
+Ethical Hacking Can Be Done on Any Device That Is Connected To a Network
+We can keep up with all of the test methods through:
+
+Continuous Learning - About half of our time is spent learning about the changes in the industry.
+Following established methodologies - Although each methodology is different, they all follow similar patterns to the ones you've learned in the course.
+
+Popular Methodologies:
+
+1) OWASP Mobile Security Testing Guide (OWASP MSTG)(https://github.com/OWASP/owasp-mstg/releases): a methodology for mobile testing. It includes
+A general framework for testing mobile apps
+Specific instructions for Android app testing
+Specific instructions for IOS app testing
+
+2) Cloud Security Alliance (CSA) Cloud Penetration Testing Playbook from CSA(https://cloudsecurityalliance.org/artifacts/cloud-penetration-testing-playbook/): a methodology to test cloud infrastructure. It follows five phases of testing: Preparation, Threat Modeling, Reconnaissance and Research, Testing, and Reporting.
+
+3) IEEE Security Testing Methodology of IoT(https://ieeexplore.ieee.org/document/8597192): a methodology for testing IoT devices published the Institute of Electrical and Electronics Engineers. This methodology is not open-source and must be purchased.
+
+General Security Testing Methodologies:
+
+OSSTM(https://www.isecom.org/OSSTMM.3.pdf): Open Source Security Testing Methodology Manual.
+
+PTES(http://www.pentest-standard.org/index.php/Main_Page): penetration testing execution standard.
+
+ISSAF(https://untrustednetwork.net/files/issaf0.2.1.pdf): Information System Security Assessment Framework.
+
+Publications from NIST including SP 800-53(https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) -Security and Privacy Controls for Federal Information Systems and Organizations.
+
+New Terms:
+
+Cloud Security Alliance (CSA): A non-profit organization and the publisher of Cloud Penetration Testing Playbook, which is a methodology for cloud security assessments.
+
+Institute of Electrical and Electronics Engineers (IEEE): A professional association known for its publications and technology standards
+
+National Institute of Standards and Technology (NIST): A non-regulatory agency of the US Department of Commerce that publishes many publications and standards used by all Federal departments and their contractors for their information security programs. NIST standards are followed by many other organizations outside of the US as well.
+
+OWASP Mobile Security Testing Guide (MSTG): A methodology designed to test mobile applications.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

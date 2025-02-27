@@ -1,0 +1,56 @@
+Stay In Scope:
+
+Testing Puts Our Systems At Risk:
+
+Manual auditing involves using various tool exploits that can sometimes break a system and cause significant organizational disruption. A poorly executed test can cause the same type of damage as a malicious hack. The key to performing effective and intentional manual auditing is by limiting the test scopes.
+
+On the other hand, automated scanning also has some limitations, such as aggressive automated testing may cause service degradation. In this case, you can limit the scanning to a certain number of requests per second. For example, the Zego - Vulnerability Disclosure Program(https://hackerone.com/zego?type=team) outlines the program rules limiting the automated scanning to 100 requests per second. Also, automated tools, such as Nessus, sometimes generate many false positives that require further manual auditing.
+
+In summary, industry professionals use a combination of manual, penetration, and automated approaches, and you should know how to mitigate the respective limitations.
+
+By the end of this course, can you outline the pros and cons of using manual auditing vs. automated penetration testing?
+
+Test Scopes Limit The Risk
+
+In manual auditing, the test scopes limit the risk by defining what needs to be tested and how the test should be done. A test scope also includes the tools and resources that can be used during the test, which leads to a more controlled testing environment.
+
+Elements Of Test Scope:
+
+1) Test Summary - Provides a basic understanding of why the test is being conducted and what are the objectives of the test.
+
+2) Work Breakdown Sheet - Provides a high-level overview of all the tasks that need to be completed to execute the test. These can include scanning for service versions, researching vulnerabilities, validating vulnerabilities by executing exploits, scoring, and reporting findings.
+
+3) Rules for The Assessment - Defines what is allowed and what is not allowed during the test. These rules may include requirements for vulnerability impact, tools that can be used for the test, and trusted sources for research.
+
+New Terms:
+
+Rules for the assessment: An element in the scope that lists what is allowed and not allowed for performing an assessment.
+
+Test Summary: An element in the test scope that explains why the test is being conducted, the context for the test, and the goal of the test
+
+Work Breakdown Sheet: An element in the test scope that gives a high-level overview of the tasks to be performed
+
+Further Reading:
+
+To learn more about how to create an effective test scope, read this article from PentesterLab: Scoping a pentest.(https://blog.pentesterlab.com/scoping-f3547525f9df) It shares best practices and a step by step process for creating test scopes from the perspective of outsourcing the audit to a third party.
+
+Supporting Materials:
+
+Example Test Scope(https://video.udacity-data.com/topher/2021/January/60005652_bansalx-test-scope/bansalx-test-scope.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

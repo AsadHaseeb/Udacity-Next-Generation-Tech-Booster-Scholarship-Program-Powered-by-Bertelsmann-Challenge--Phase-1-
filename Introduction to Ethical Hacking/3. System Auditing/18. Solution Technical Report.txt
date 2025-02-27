@@ -1,0 +1,42 @@
+Report On Testlab:
+
+Detailed Technical Reports:
+
+Finding 1: Remote Buffer Overflow – CRITICAL
+
+Vulnerability Description:
+
+Buffer overflow in the call_trans2open function in trans2.c for Samba 2.2.x before 2.2.8a, 2.0.10 and earlier 2.0.x versions, and Samba-TNG before 0.3.2, allows remote attackers to execute arbitrary code.
+
+Exposure/Analysis:
+
+The target is running this service as the Root User hence this is extremely dangerous. If exploited successfully, will give complete privileged control over the server.
+
+It should be noted that the default Meterpreter payload doen’t works and needs to be changed to a generic shell payload for the exploit to work successfully.
+
+Recommendations:
+
+Upgrade Samba to a secure release – Latest version available is Samba 4.13.x
+
+Steps to Reproduce:
+
+1) Initial Nmap Scan Reveals many ports, protocols and services.
+Command Used – nmap 10.10.10.15 -p0-65535 -sV
+
+2) The exact numeric version for Samba was Discovered using Metasploit
+
+	Metasploit Module Utilized - auxiliary/scanner/smb/smb_version
+
+3) Research on Samba 2.2.1a discovered a score-10 CVE-2003-0201 and 4 Potential Exploits.
+
+CVE Reference Page - https://www.cvedetails.com/cve/CVE-2003-0201/
+
+4) Exploit validated with given options.
+
+Metasploit Module Reference – https://rapid7.com/db/modules/exploit/linux/samba/trans2open/
+
+Supporting Materials:
+
+Report on TestLab Solution(https://video.udacity-data.com/topher/2021/January/6001a638_report-exercise-solution/report-exercise-solution.pdf)
+
+

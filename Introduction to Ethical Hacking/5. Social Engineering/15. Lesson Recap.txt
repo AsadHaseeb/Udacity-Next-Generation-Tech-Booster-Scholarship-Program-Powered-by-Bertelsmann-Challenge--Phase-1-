@@ -1,0 +1,69 @@
+What We Have Learned
+
+In this lesson, we studied Social Engineering and focused on five topics:
+
+Five Opportunities In Human Psychology
+
+We talked about how to take advantage of Greed, Fear, Urgency, Curiosity, and Helpfulness in your social engineering attacks.
+
+Phishing
+
+We learned how to conduct and manage a phishing simulation campaign on an enterprise-level using the GoPhish Framework.
+
+Creating Malware
+
+We created a malware file using metasploit which can be used in your social engineering attempts.
+
+Landing Page For SE
+
+We learned how to create a persuasive landing page to entice people to take actions that will help us gather information for our attempts to gain access.
+
+Discussion On Ethics of SE
+
+We ended this lesson with a discussion on ethics of social engineering. When is it okay to use these tactics and when is it not!
+
+In The Next Lesson, We Will Focus On:
+
+1) Exploratory Link Analysis
+2) Data Mining
+3) Establishing Links
+4) Analyzing Links
+5) Offensive OSINT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

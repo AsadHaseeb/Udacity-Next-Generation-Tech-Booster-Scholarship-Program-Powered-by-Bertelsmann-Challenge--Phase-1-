@@ -1,0 +1,56 @@
+Open Souce Intelligence
+
+In this lesson, we will learn about OSINT, which stands for Open Source Intelligence. OSINT is a skill that defense, intelligence agencies, and the growing ethical hacking industry use to gather information about businesses.
+
+There are four key areas of focus:
+
+1) Exploratory Link Analysis
+2) Data Mining
+3) Establishing Links
+4) Analyzing Links
+
+We will finish this lesson with a small section on using OSINT in offensive operations and going after hackers to uncover their identities.
+
+By the end of the lesson, you will be able to:
+
+1) Mine and collect data about any target from sources including blogs, news media, social media posts, public records, and more
+
+2) Establish links and relationships in the data you have collected
+
+3) Analyze the links to discover new information and build conclusions about your target
+
+That's what they do in the movies and, after this lesson, you'll know how to do it in real life.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

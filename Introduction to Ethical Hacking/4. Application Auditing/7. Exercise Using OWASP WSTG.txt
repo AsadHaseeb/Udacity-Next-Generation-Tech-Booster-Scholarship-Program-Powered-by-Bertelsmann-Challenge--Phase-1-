@@ -1,0 +1,29 @@
+Audit svba.local For Stored Cross-Site Scripting
+
+Your goal for this exercise is to use OWASP WSTG to conduct a test for Stored Cross-Site Scriping.
+
+1) Target: http://sbva.local on the SBVA virtual machine.
+
+2) Test: WSTG-INPV-02 (Stored Cross-Site Scripting)
+
+3) Testing environment: Black-Box.
+
+If you are not familiar with JavaScript Code, read the WSTG-INPV-01 (Reflected Cross-Site Scripting) before starting this exercise.
+
+Reminder:
+
+You should have broken sbva.local in the Request and Response exercise so you must reinstall the sbva.local machine before you begin this exercise. If you don't reinstall sbva.local, this exercise will not work.
+
+See instructions at the end of the Request and Response solution.
+
+
+
+
+
+
+
+
+
+
+
+

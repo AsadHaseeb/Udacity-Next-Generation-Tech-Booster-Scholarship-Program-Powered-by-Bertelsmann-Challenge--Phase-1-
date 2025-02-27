@@ -1,0 +1,54 @@
+Information Gathering Using WPScan:
+
+1) Install the wpscan tool by running:
+
+2) Use -h to display the tool's help menuwpscan -h
+
+3) Enumerate all plugins, themes, and users from the target by running:
+
+wpscan -e ap,at,u --url http://sbva.local/blog
+
+Bruteforcing User's Passwords Using WPScan:
+
+1) Save the identified usernames in a text file: users
+
+2) Search the internet for common passwords and save them in another text file: pas
+
+3) Perform a brute-force attack with the username and password lists you created:
+
+wpscan -U users -P pass --url http://sbva.local/blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

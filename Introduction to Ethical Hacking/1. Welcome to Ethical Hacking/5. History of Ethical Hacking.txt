@@ -1,0 +1,38 @@
+Hacking Did Not Start With Computers:
+
+In 1961 MIT Researchers hacked a toy train set to change its functionality. This was the start of hacking! It was only later that they started hacking their very expensive mainframe computers.
+
+In the 1970s, there wasn't an internet to hack and computers were used only by large businesses and government organizations. Hackers targeted telephone systems to get free phone calls because telephone service was extremely expensive.
+
+In the 1980s computers became more common. The internet was primarily used for research and defense purposes but as it expanded, so did cybercrime. Governments began to take action and laws like the U.S Computer Fraud and Abuse Act. Laws prohibited unauthorized computer access and made hacking a serious crime.
+
+In the 1990s internet usage became more common. As more people started to use the internet, criminal activity increased too. Hackers like Kevin Mitnick and Robert Morris were arrested for crimes including hacking into computer systems to steal proprietary code.
+
+As the internet expanded further in the 2000s, major e-commerce, search engine, and social media platforms were attacked. Even the International Space Station was breached.
+
+Eventually, organizations became concerned about protecting their systems from hacking. They started to hire Ethical Hackers to be the good guys fighting the bad actors.
+
+Many legendary good guy hackers initially started as malicious actors and were sent to prison. When they came out of prison, they started to use their hacking skills to protect systems instead of hacking them. Their efforts made the cyber world a better place for everyone.
+
+Further Reading:
+
+1) There were 75 major breaches between 2004-2010 and even more since then. Read about them on Wikipedia: List of data breaches
+
+2) Kevin Mitnick is known as the world's most famous hacker. He started out as a cybercriminal but later become a top security consultant. You can read his story on Wikipedia: Kevin Mitnick(opens in a new tab)
+
+3) Hacking the phone system is also called Phreaking. Read more about it here: Britannica.com - Phreaking(opens in a new tab)
+
+4) You can read about the great MIT Train hack here: Happy 60th Birthday to the Word "Hack"(opens in a new tab)
+
+5) The world's first computer worm was created in 1988. Known as the Morris Worm, it infected computers all over the internet. Read more about the story including the arrest of its creator in this FBI report: The Morris Worm(opens in a new tab)
+
+6) Here is an interesting article in The New Yorker discussing how the definition of the term "hack" has changed over time: A Short History of "Hack"(opens in a new tab)
+
+7) Want to hear more about DDoS attacks? This article from Cloudflare describes some of the most famous ones: Famous DDoS attacks
+
+
+
+
+
+
+

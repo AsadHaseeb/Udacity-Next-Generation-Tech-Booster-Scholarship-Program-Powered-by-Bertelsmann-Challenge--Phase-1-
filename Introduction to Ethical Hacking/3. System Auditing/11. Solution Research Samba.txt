@@ -1,0 +1,32 @@
+NOTE CVE Information is constantly changing. Your results may differ from what you see in the video, but your process should be similar.
+
+1) Use the internet to search for related CVEs, e.g. samba 2.2.1a CVE
+
+2) Click on the link for CVE Details and look through the results for a CVE that meets the requirements:
+
+	-> CVE score: 10
+	-> Vulnerability type: EXEC Code Overflow
+	-> Commercial exploits are available
+
+3) CVE-2003-0201 meets the requirements
+
+4) Use the internet to search for exploits, e.g. CVE-2003-0201
+
+5) One of the results is from exploit-db. This meets the requirement of a public exploit. Go to https://www.exploit-db.com/exploits/7(https://www.exploit-db.com/exploits/7) to see the details.
+
+6) Use the internet to search for exploits, e.g. CVE-2003-0201 analysis
+
+7) Find a link to the National Vulnerability Database and click on it: https://nvd.nist.gov/vuln/detail/CVE-2003-0201
+
+8) Explore the items in the References section to find a PoC/Analysis
+
+
+
+
+
+
+
+
+
+
+

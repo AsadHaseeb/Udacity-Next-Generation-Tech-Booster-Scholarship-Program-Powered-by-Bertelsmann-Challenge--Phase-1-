@@ -1,0 +1,57 @@
+Key Stakeholders
+
+1) Shareholders
+2) Management
+3) Employees
+4) Customers
+5) Suppliers
+6) Competitors
+
+
+
+Primary Teams that Ethical Hackers Work With:
+
+1) CISO: makes the major decisions relating to ethical hacking activities in the organization
+
+2) GRC team: assists CISO by handling the day to day decision-making activities subject to ethical hacking
+
+3) Red Team: continuously tests the systems against various testing methodologies and new techniques
+
+4) Audit team: performs audits on systems to check if they meet the required security requirements of the business
+
+5) Blue team: fixes the issues found by implementing various security mechanisms.
+
+6) Incident Response team: handles the breaches as they occur
+
+7) Forensics team: works on analyzing how and why the breach happened
+
+Other Sources of Information that Ethical Hackers Need:
+
+1) HR department: information about employees
+
+2) IT department: information about IT assets
+
+3) Legal department: information about current applicable laws and compliance requirements
+
+4) IAM department: information about the access rights of people
+
+5) Developers: information about the application code
+
+6) System architects: information about system configurations
+
+
+New Terms:
+
+1) Blue Team: The team tasked with implementing security controls to secure the organization
+
+2) Chief Information Security Officer (CISO): The highest-ranking security role in an organization. The CISO is typically a C-suite executive, but some organizations have a non-executive CISO with a title like Director of Security
+
+3) Governance, Risk, and Compliance (GRC): The team that coordinates the organization's risk management and regulatory compliance efforts.
+
+4) Identity and Access Management (IAM): The team responsible for ensuring that every user's identity and access to the resources are managed securely
+
+5) Red Team: The team tasked with continuously trying new methods and techniques to find vulnerabilities in existing security controls.
+
+
+
+

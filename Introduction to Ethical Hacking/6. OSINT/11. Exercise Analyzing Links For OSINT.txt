@@ -1,0 +1,66 @@
+Applying OSINT For Data Leakage
+
+As we have seen, Maltego is a helpful tool for identifying and classifying relationships among entities.
+
+As an Ethical Hacker, you'll use Maltego to help you understand the authority relationships between entities and understand which relationships are the most important.
+
+In this exercise you'll take the graph you created in the Establishing Links exercise and learn more about what they mean.
+
+After importing the graph, take a look at the data. What is your initial impression? Do you need to do any more tranforms? What happens when you move one of the entities? Which of the layouts is more helpful for understanding authority and importance?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

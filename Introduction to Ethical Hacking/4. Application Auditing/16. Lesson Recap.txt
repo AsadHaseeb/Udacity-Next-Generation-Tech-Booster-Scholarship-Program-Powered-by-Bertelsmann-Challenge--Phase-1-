@@ -1,0 +1,68 @@
+What We Have Learned:
+
+In this lesson, we learned about web application auditing and focused on five topics:
+
+OWASP WSTG:
+
+We learned about the OWASP Web Security Testing Guide and explored all 11 categories of web application tests. We also learned how to use the guide to perform specific tests.
+
+Request and Response:
+
+We looked at HTTP Request methods like GET, PUT, POST, DELETE, HEADand OPTIONS. We also explored response codes and learned how to use curl to send requests.
+
+Semi-Automated Tools:
+
+We discovered how using semi-automated tools can reduce the workload and increase the efficiency of the testing process. We used a tool called Burp Suite to perform a brute force attack on a website’s login page.
+
+Fully Automated Tools:
+
+We also learned why a semi-automated tool may not be enough and how to use fully automated tools to perform specific tests related to vulnerabilities, functions, and products.
+
+So Many Things To Hack!
+
+We ended this lesson with a discussion about other things that can be hacked. We learned that each type of device requires a different methodology, which is why continuous learning is so important in this industry.
+
+In The Next Lesson, We Will Focus On:
+
+1) Five Opportunities In Human Psychology
+2) Phishing Simulations
+3) Creating Malware
+4) Landing Page For SE
+5) Ethics of SE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

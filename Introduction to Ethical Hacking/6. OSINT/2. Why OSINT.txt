@@ -1,0 +1,69 @@
+Why Does OSINT Matter?
+
+Open Source Intelligence (OSINT)
+
+OSINT includes any publicly available information.
+
+Some OSINT Is Available for Free
+
+1) DNS records
+2) Server and host information for websites
+3) Government records
+4) Addresses
+5) Phone numbers
+
+Some OSINT Is Available from Paid Sources
+
+1) Premium APIs like VirusTotal are not free but are available to anyone who is willing to pay for it.
+
+Since OSINT is available to everyone, the bad actors use this information too -- which is why an OSINT audit is critical for any organization.
+
+Information Leakage
+
+We leak information all the time without even knowing it. For example, if you post a picture of your team, you may inadvertently disclose information about the people you work with and your physical office building.
+
+OSINT can help us identify what we are leaking
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

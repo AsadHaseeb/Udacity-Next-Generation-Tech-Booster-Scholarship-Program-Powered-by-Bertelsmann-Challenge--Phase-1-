@@ -1,0 +1,123 @@
+Sharing Your Findings in A Report:
+
+Nine Must-Have Elements In An industry-Standard Report
+
+1) Document Control
+2) Legal Disclaimer
+3) Table of Contents
+4) Executive Summary
+5) A Glance Through Target Security Posture
+6) Testing Methodology
+7) Tools & Websites Used
+8) Detailed Technical Reports
+9) Appendices
+
+Document Control:
+
+Document Control is used to keep track of the document versions. This is necessary because a report often requires input from many different people: one person reports on automated testing, another person reports the results of manual tests, and another person checks the report formatting issues. All of this needs to be recorded. This information is also used when any retesting is done in the future.
+
+Legal Disclaimer:
+
+The disclaimer should be written by your legal team to minimize any risk to the organization from incorrect information in the report
+
+Table of Contents:
+
+The Table of Contents helps readers find the information they are looking for quickly by providing a page number for each section of the report. You might think it should be the first element in a report, but in the security industry, document control and disclaimer information are more important so they come first.
+
+Executive Summary:
+
+The summary shares an overview of the audit results. It should include:
+
+	-> The context of the assessment
+	-> A high-level summary of the results
+	-> Observations made
+	-> Problems discovered
+	-> A proposed solution that is consistent with the organization's policies and procedures
+
+It is also helpful to include a pie chart showing the number of vulnerabilities found for each level of risk rating.
+
+Security Posture:
+
+The Security Posture includes a table of all of the important numbers:
+
+	-> The total number of vulnerabilities
+	-> The number of critical vulnerabilities
+	-> An overall security rating
+
+You may also want to include a pie chart of the data.
+
+More Report Details:
+
+Methodology And Tools:
+
+Methodology:
+
+This section should follow the steps outlined in the Work Breakdown sheet of the test scope and should list all of the steps followed. If you don't have a test sope, follow the four-step process we covered earlier.
+
+Tools:
+
+This section should follow the Rules of Assessment from the test scope. It lists all of the allowed tools and sources. If you don't have a test scope, you should list all of the tools and websites you used to complete the test.
+
+Detailed Technical Reports:
+
+There should be one report for each target in the test scope.
+
+Summary:
+
+The summary page should list the number of vulnerabilities found on that target.
+
+Technical Report:
+
+The Technical Report should include
+
+	-> A finding name with a risk rating
+	-> A description of the vulnerability (generally copied from CVE)
+	-> An Exposure/Analysis section where you share your professional judgment and observations., as well as any details about code modifications or chaining and risk score adjustments.
+
+	-> A recommendation for each vulnerability.
+
+Appendices:
+
+The appendices should include any relevant additional information like screenshots, modified codes, vulnerability score analysis, etc.
+
+Security Report Template:
+
+Download here: Security Report Template(https://video.udacity-data.com/topher/2020/December/5fda6fda_project-report-template-12-15-20/project-report-template-12-15-20.docx).
+
+The template is a .docx format that can be opened using most popular word-processing systems, including Microsoft Word and Google Docs. To use the worksheet in Google Docs:
+
+	-> Upload the document to your Google Drive
+	-> Click Open with Google Docs at the top of the screen
+
+Further Reading:
+
+We have been focusing on writing reports for an internal audience. Reports from third-party service providers are a little different. See this article from Infosec to learn more: The Art of Writing Penetration Test Reports(https://resources.infosecinstitute.com/topic/writing-penetration-testing-reports/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

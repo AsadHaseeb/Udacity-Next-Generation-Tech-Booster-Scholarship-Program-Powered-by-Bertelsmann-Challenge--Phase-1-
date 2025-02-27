@@ -1,0 +1,176 @@
+Setting Up GoPhish
+
+GoPhish is included in Kali Linux by default, but if you need to install it, use this guide:
+
+Instructions For Setting Up GoPhish on the Analyst Machine
+
+1) Download the latest version of GoPhish for Linux at: https://getgophish.com
+
+2) Extract all the files to a folder and open a terminal in that folder
+
+3) Add executable permissions to GoPhish file:
+
+chmod +x gophish
+
+1) Start the GoPhish server:
+
+./gophish
+
+1) Find the credentials for the login page in the terminal window. Look for the username admin followed by a long random password.
+
+2) Open a browser and visit https://127.0.0.1:3333
+
+3) Ignore the SSL warning and sign in using the admin credentials to reach the password reset screen.
+
+Setting Up A Phishing Campaign: Part 1
+
+Phase 1 - Configure The Sending Profile
+
+1) Login to Gophish using the provided credentials
+
+2) Navigate to the Sending Profile page and click on the New Profile button.
+
+3) Fill in all fields:
+	Name: any name you choose
+	From: the name and address the user will see using the formatName <Email>
+	Host: your email provider's SMTP Host using the format SMTP Server Address:Port
+	Username: the email address you want to use to send the emails from
+	Password: the password for the email address you provided
+
+4) Send a test email to yourself using the Send Test Email button to confirm that it works.
+
+Phase 2 - Create Users and Groups
+
+1) Navigate to the Users & Groups tab and click on New Group.
+
+2) Fill in the Name field. You can give any name you wish in the Name field. For Example: All Users.
+
+3) Click on the Bull Import Users button to import users from a CSV file or add them manually.
+
+4) Add users manually by entering the data in the required fields for each user:
+	First Name
+	Last Name
+	Email address
+	Position
+
+5) Click Save changes after all users have been added.
+
+Phase 3 - Configure The Landing Page
+
+1) Navigate to the Landing Pages page and click on the New Page button.
+
+2) Give the page a Name
+
+3) Enter the HTML code for the landing page or click on the Import Site button to enter the URL of an existing webpage.
+
+4) Check the Capture Submitted Data and the Capture Passwords boxes.
+
+5) Enter a webpage URL for the webpage you want to send the victim after capturing their data in the Redirect to box.
+
+6) Click on the Save Page button.
+
+Setting Up A Phishing Campaign: Part 2
+
+Phase 4 - Configure The Email Template
+
+1) Navigate to the Email Templates page and click on the New Template button.
+
+2) Give the template a Name.
+
+3) Import the email by clicking on the Import Email button or enter the email subject and text manually using {{URL}} as the placeholder for the URL you want to include in the email.
+
+4) Click on Save template.
+
+Phase 5 - Set Up A Campaign
+
+1) Navigate to the Campaigns page, click on the New Campaign button.
+
+2) Give the Campaign a Name field.
+
+3) From dropdowns select the elements you just created:
+	Email template
+	Landing Page
+	Sending Profile
+
+4) In the URL box enter your IP address.
+
+5) Enter a Launch Date for the campaign.
+
+6) Select the target group for the campaign in the Groups dropdown.
+
+7) Click on the Launch Campaign button.
+
+Campaign Results:
+
+Viewing Results
+
+After the campaign has launched, you can see the results on the Dashboard page. It shows you
+
+1) How many emails were sent
+2) How many emails were opened
+3) How many victims clicked on the link
+4) How many victims submitted data
+5) How many victims reported the email (requires setting up a webhook)
+
+In the Details section you can find more information about the tracked events. You can also export information as a CSV file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

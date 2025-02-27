@@ -1,0 +1,30 @@
+Social Engineering Involves Real People With Real Emotions
+
+By design, many social engineering programs, like fake websites and phishing campaigns, are intentionally deceitful. This can be uncomfortable for the organization and the person who is running the social engineering program.
+
+However, if it is designed carefully, a social engineering program will stay within ethical boundaries to minimize any harm to the organization and its employees.
+
+Rules of Ethical Social Engineering
+
+1) Don't use messaging related to the target's personal life. Creating an effective personal message is unnecessarily invasive and requires extra work. General messages or department-specific messages are easier to implement and can be just as effective.
+
+2) Don't make promises to the target or raises false hopes. Messages that make false promises can be extremely dangerous because the target may act on this information in ways that are completely unrelated to your task and can permanently harm the target. Instead of GREED, focus on the HELPFULNESS. It can often be just as motivating and doesn't require you to give the target any false hope.
+
+3) Don't embarrass the target. Too much pressure on the target can cause a lot of stress and anxiety and may lead to serious emotional and health issues. We know that fear can be very motivating, and it often takes just a little bit of fear to influence the target to do what you want them to do.
+
+Effective and Ethical Social Engineering Messages
+
+1) "Your account has been locked"
+2) "We need your personal email"
+3) "The client needs credentials right now"
+4) "Confirm your information in this PDF"
+5) "There is troubling information in your performance report"
+
+Further Reading
+
+A recent GoDaddy phishing campaign backfired because they did not follow best practices: CBS News: GoDaddy apologizes for "insensitive" phishing email offering bonuses to employees(https://www.cbsnews.com/news/godaddy-apologizes-insensitive-phishing-email-bonuses-employees/).
+
+
+
+
+

@@ -1,0 +1,73 @@
+Creating A Persuasive Landing Page
+
+1. Update the Document Title
+
+A document title is not an element visible on the page but is visible on the browser tab itself. It is a good idea to customize this otherwise the page will say index.html.
+
+<title>Grow Your Career</title>
+
+2. Add a Bold Headline
+You need a bold headline that attracts the audience you are targeting. In this example, the words "Instant Promotion" will attract the attention of people who want a promotion.
+
+<h1 style="color: white;">How To Get An <u>INSTANT PROMOTION?</u></h1>
+
+3. Write a Subheading Focused on the Benefit
+
+Your subheading should focus on a benefit or result. In this example, the possibility of a reduced workload is the benefit that the target will get if they continue to read the page.
+
+<h2 style="color: white;">While Working <u>EVEN LESSER</u> Than You Do Right Now!</h2>
+
+4. Include an Interesting Video
+
+Attention spans are limited but a video can both hold the target's attention and build trust. In this example, I used a YouTube video where I explain the infosec career ladder.
+
+src="https://www.youtube.com/embed/pV1KqAfYFa0"
+
+5. Add Attractive Images
+
+Not everyone will watch the video, but interesting images will help keep them reading the page. In this example, the base template has three placeholders in the images folder which I replaced with the following images.
+
+Car - https://pixabay.com/illustrations/car-vehicle-sports-car-racing-car-49278/
+
+House - https://pixabay.com/illustrations/house-cottage-brick-brick-house-4826263
+
+Money - https://pixabay.com/illustrations/dollars-coins-money-currency-517113/
+
+6. Write Persuasive Text
+
+Keep the text short and focused on the benefits. Use bullet points whenever possible. In this example, I included reasons:
+
+1) Discover a perfect strategy for your next promotion
+2) Understand what your next HR is looking for
+3) Talk through seven successful lifestyle changes
+4) Uncover the secrets of 10X growth formulae
+5) Get ready for the millionaire mindset
+6) It is absolutely free!!!
+
+7. Include Testimonials for Social Proof
+
+Social Proof helps the target to overcome any fear they have by showing what other people are saying. Good social proof can put a lot of pressure on the target to say "yes" to what the website is offering. In my example, I used three fake testimonials:
+
+1) Talking to Sagar was totally awesome! I have much better clarity in my life, a big thanks!
+
+2) It's been a few months since I met Sagar, and I take pleasure in recommending this insane offer!
+
+3) An incredible ecosystem where I got what I wanted and we helped each other as well. Highly Recommended!
+
+8. End With a Call To Action
+
+By the time the target gets to the bottom of the page, they should be fully convinced to take action. In this example, I used the tel: attribute in the anchor tag to open the dialer app on the target's phone when the button is clicked. The phone number is preloaded, which increases the possibility of a successful attack.
+
+<a href="tel:+19876543210"><button> GET YOUR FREE CONSULTATION NOW </button></a>
+
+
+
+
+
+
+
+
+
+
+
+

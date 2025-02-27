@@ -1,0 +1,193 @@
+
+There are some prerequisite concepts that you should understand before starting this course to ensure that you have a successful experience with the material. In addition, there are some other concepts that are not necessarily required for this course but will be helpful as you continue in your Ethical Hacking career.
+
+Essential Security Concepts:
+	
+You should have a basic understanding of the CIA Triad:
+
+-> Confidentiality: protects our data against unauthorized access
+-> Integrity: protects our data and systems against any unauthorized alterations
+-> Availability: protects our data and systems against unauthorized destruction or other disruptions to an authorized user's access
+
+These three are the most fundamental goals of security.
+
+You should also understand IAAA which is an acronym for:
+
+-> Identification: a user must have an identity like a username.
+-> Authentication: a user should be able to prove the identity using authentication methods like a password.
+-> Authorization: a system should check for access rights before granting the user access.
+-> Auditing: everything the user does should be securely logged.
+
+Not Required But Helpful To Know: 
+
+1) Non-repudiation:
+
+Non-repudiation is one of the essentials to guarantee security with a special focus on transactions and data exchanges over the Internet. Non-repudiation is one of the basic needs of information security that requires no participant in a given communication or transaction can deny their participation in it. As communication security has perhaps never been more necessary with the increasingly integrating world given by technology. Non-repudiation can be used when sending messages while performing the digital contract, or doing financial transactions to ensure that data cannot be altered while in transit, and cannot be denied by the sender later. This is important to avoid problems and build confidence in counterparties, making non-repudiation the fundamental element of safe communication.
+
+Non-repudiation is a service that is frequently adopted for estimating the author or source of the message and verifying related documents in which one or more participants in an electronic message or operation are not able to dispute something. It guarantees that in any communication established, apart from the fundamental delivery of information, proof of delivery and identification of the receiver’s and the package’ sender’s identity will be provided. Nonrepudiation is also an antilegal principle that finds regular usage in communications, computing, and security of information systems. This also provides proof of the facts like the origin, genuineness, and history of the data.
+
+Knowingly or unintentionally, non-repudiation can also be achieved by providing the parties with such means as a digital signature, encryption, and so on, which will help to make a number of distress messages secure and reliable and thus assist to enhance the trust in inter-party communications.
+
+Pillars of Non Repudiation:
+
+-> Verification: Nonrepudiation in the context of security concerns the ability to prove that users are real, such for example using passwords, usernames, digital certificates and tokens.
+-> Reliability: Wherever nonrepudiation is made possible, persons will ensure that information is present if needed, and as accountable.
+Privacy: They hinder the exposure or access of Identity and Company sensitive information.
+-> Non-denial: This is for example to allow people the perform different operations as they are not able to un-do any operation since the system tracks all the activities a person engages in.
+
+Types of Non-Repudiation Tools Available:
+
+Several tools help ensure non-repudiation, each with specific use cases in security:
+
+-> Digital Signatures: Non repudiation is closely integrated with digital signatures, which basically combines both confirmation of the identity of the sender and the message sent. They make use of a private key, for encrypting the message and the public key, for decrypting the message.
+-> Encryption: Makes sure that information passed between two people cannot be intercepted by other third parties.
+-> Hash Functions: Different algorithms such as MD5 and SHA 256 are applied in creating identification numbers in development of the messages. This checksum offers an avenue for demonstrating that a certain message has not been changed, by a hash, of some sort.
+-> Audit Logs: Non-repudiation can be supported by digital signatures and encryption, transactions and messages and communications log which is also known as audit trial cannot be denied for a certain transaction.
+
+
+2) Least privileges: 
+
+Least privilege may be a foundational security principle and may be applied widely to hide access to information or the power to perform some action on a system. Users should be ready to access only the knowledge they have and perform only the actions necessary for his or her role. In information security, the least privilege also referred to as the principle of minimal privilege or the principle of the least authority, requires that during a particular abstraction layer of a computing environment, every module (such as a process, a user, or a program, counting on the subject) must be ready to access only the knowledge and resources that are necessary for its legitimate purpose. Least privilege requires that the developer must understand what privileges are required for an application to execute and access all its required resources. Here are some important points regarding Least privilege –
+
+-> One important part of security is that the idea of a running process with the smallest amount of required privilege.
+-> From the developer’s point of view, it’ll be easy to use administrative level permission for all tasks, for this, removes access controls from the equation, but this may also remove the protections that access level controls are designed to perform.
+-> The opposite end is software designed for operating systems with no built-in security, like early versions of Windows and a few mainframe OSs, where security comes within the sort of application package.
+-> When migrating these applications to platforms, the priority of access controls becomes a crucial issue.
+-> If a developer is developing from the purpose where there’s no security to an OS, the natural tendency is to code around new security requirements.
+-> This is often commonly manifested as a program, which runs only under an administrative level account or runs as a service that’s utilizing the system account for permissions in Windows.
+-> Both of those are bad practices because it reduces security, introduces hard to repair errors and produce code that’s hard to take care of and extend.
+-> Once the appliance is meant, the entire process will get to be repeated with the installation procedure. Because installing software will need a better level of access than needed for executing the software.
+
+Importance of Least privilege :
+
+-> Avoid security issues –
+
+The best example of this will be Edward Snowden was ready to leak many NSA files because he had admin privileges. Giving unnecessary privileges to the unintended user may cause problems to the safety.
+
+-> Minimize attack – 
+
+Give the specified permissions/privileges to the upper level authorities in a corporation also can minimize attacks. If we give extra permissions to some account that’s not necessarily required through which attackers might gain the access to the system.
+
+-> To avoid malware propagation –
+
+Malware that entered during a system spreads by the principle of the least privilege is usually contained to the tiny section where it entered first.
+
+-> The cost of failure –
+
+You’ve got expensive, time-consuming access violation errors that are hard to trace down and proper. When an exploit is found, which provides permission to another program that use portions of your code in an unauthorized manner. It can cause millions to the business. The simplest recommendation is that use commercially proven functions for cryptography.
+
+Examples of Least privilege : 
+
+-> Give the privilege when needed –
+
+A user who only rarely needs root privileges should work with reduced privileges the remainder of the time. To extend traceability, that user can retrieve root access credentials from a password vault as required. Using disposable credentials tightens the safety achieved by just giving privilege when needed.
+
+-> Active directory – 
+
+Active directory access control mechanisms are often the best samples of this during this can give different levels of access to the users. Suppose if we would like to implement the least privileges in a corporation where multiple departments are coordinate, so we will create various domains and may give various privileges to the users inside that department also.
+
+Least Privilege best practices :
+
+As you implement the principle of the least privilege, keep the subsequent best practices in mind:
+
+-> Minimize account privileges – 
+
+Supported the wants of the tasks or job. All users should have a least-privileged user account, which may only do what the user is required to try to as a part of their job.
+
+-> Minimize privileges for non-human accounts –
+
+Reduce the privileges for accounts like service accounts. Review vendor documentation to know the minimum privileged required by each application — and if it says administrative access to the appliance server is required, proceed with caution. It’s an honest practice to implement the appliance during a test environment where you’ll try various configurations.
+
+
+3) Need-to-know:
+
+Need-to-Know in security ensures users access only the data necessary for their job, minimizing unauthorized access and enhancing overall security by limiting exposure to sensitive information.
+
+Implementing effective need-to-know policies is crucial for maintaining robust cybersecurity. These policies ensure that users only access the information necessary for their roles, thereby minimizing the risk of unauthorized access and data breaches.
+
+-> Assessment: Regularly evaluate user roles and access needs.
+
+-> Segmentation: Divide data into categories based on sensitivity.
+
+-> Monitoring: Continuously track access patterns and anomalies.
+
+-> Training: Educate employees on the importance of data security.
+
+-> Review: Periodically audit access permissions and adjust as needed.
+
+Essential Principles of Need-To-Know Security:
+
+Essential principles of need-to-know security are fundamental for safeguarding sensitive information. By ensuring that access is limited to those who genuinely need it, organizations can significantly reduce the risk of data breaches and unauthorized access.
+
+-> Access Control: Configuring systems to allow only authorized functions.
+
+-> Least Privilege: Assigning minimal necessary privileges to users.
+
+-> Data Segmentation: Dividing data based on sensitivity levels.
+
+-> Continuous Monitoring: Tracking access patterns and anomalies.
+
+-> Regular Audits: Periodically reviewing and adjusting access permissions.
+
+
+4) Defense in depth:
+
+Defense in depth is a cybersecurity approach that involves protecting your environment under several layers of security protocols, rather than relying on a single protective measure. This method yields greater protective force against attacks because you have redundant safeguards throughout your environment or even on a single device—like posting sentries at each door throughout a home, rather than only at the front door.
+
+Defense in depth is a strategy that leverages multiple security measures to protect an organization's assets. The thinking is that if one line of defense is compromised, additional layers exist as a backup to ensure that threats are stopped along the way. Defense in depth addresses the security vulnerabilities inherent not only with hardware and software but also with people, as negligence or human error are often the cause of a security breach.
+
+
+Core Technologies:
+
+You should also be aware of these core technologies:
+
+-> Linux file structure
+-> Open Systems Interconnection (OSI) model
+-> Transmission Control Protocol/Internet Protocol (TCP-IP) Model
+-> Three-way handshake
+-> Encryption
+-> Hashing
+-> Antivirus
+-> Firewall
+
+
+Not Required But Helpful To Know:
+-> Windows, macOS, Android, and IOS file structure
+-> Password salting
+-> Digital Signatures
+-> Digital Certificates
+-> Intrusion Prevention System (IPS)
+-> Data Loss Prevention (DLP)
+-> Security Information and Event Management (SIEM)
+-> Security Orchestration, Automation, and Response (SOAR)
+
+
+Commands & Code:
+-> Linux command line basics
+-> Programming fundamentals for at least one language:
+	-> Python (preferred)
+	-> C/C++
+	-> Ruby
+	-> Java
+
+Not Required But Helpful To Know:
+-> Windows CMD basics
+-> Programming fundamentals
+	-> SQL
+	-> PHP
+	-> Perl
+	-> JavaScript
+
+
+Software and Hardware Requirements:
+-> Operating system - Windows, macOS or Linux
+-> Processor
+	-> Minimum speed - 2 GHz
+	-> Virtualization support
+	-> 64-bit instruction set
+-> 8GB of RAM
+-> 100GB of free storage space
+
+Not Required But Helpful
+-> 16GB of RAM
+-> SSD drive

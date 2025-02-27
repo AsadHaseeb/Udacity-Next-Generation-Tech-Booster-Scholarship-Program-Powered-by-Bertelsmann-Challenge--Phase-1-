@@ -1,0 +1,52 @@
+New Terms In This Lesson:
+
+Burp Suite: A suite of application security testing tools developed by Portswigger.
+
+Cloud Security Alliance (CSA): A non-profit organization and the publisher of Cloud Penetration Testing Playbook, which is a methodology for cloud security assessments.
+
+Command Injection: An attack where malicious commands are directly executed on the system hosting the application
+
+Commix: A fully automated tool used to test an application against command injection vulnerabilities
+
+Cross-Site Scripting (XSS): An attack where scripts (typically written in javascript) are executed in the user's browser when an infected element is loaded
+
+Dictionary Brute Force Attack: A password cracking attack that tries every combination of usernames and passwords from a list.
+
+HTTP Request: A request sent by the client to the server to perform actions on a specific resource URL. The action to be performed is defined by an HTTP Method.
+
+HTTP Response: The reply from the server back to the client about the previously made request.
+
+Hypertext Transfer Protocol (HTTP): An application layer protocol used to exchange data over the internet
+
+Institute of Electrical and Electronics Engineers (IEEE): A professional association known for its publications and technology standards
+
+Intruder Tab: A Burp Suite tab used to automate sending a request with multiple minor changes
+
+National Institute of Standards and Technology (NIST): A non-regulatory agency of the US Department of Commerce that publishes many publications and standards used by all Federal departments and their contractors for their information security programs. NIST standards are followed by many other organizations outside of the US as well.
+
+Nikto: A fully automated tool used to audit the web server security
+
+OWASP Mobile Security Testing Guide (MSTG): A methodology designed to test mobile applications.
+
+Proxy: A system placed in the middle of an active communication between a client and server. When a client sends a request to the server, it is routed through the proxy before reaching the server. Similarly, when the server returns a response, it routes through the proxy before reaching the client.
+
+Proxy Tab: A Burp Suite tab used to intercept a request and modify, forward, or drop it. It can also be used to check previously sent requests and responses.
+
+Semi-Automated Tools: Proxy-based tools that intercept a request from the analyst's browser and modify, forward, or drop it. These tools can automate sending and analyzing thousands of requests to increase testing efficiency
+
+SQL Injection: An attack where malicious SQL queries are inserted into an input field and executed by the database management system
+
+SQLmap: A fully automated tool used to test an application against SQL injection vulnerabilities
+
+XSS Strike: A fully automated tool used to test an application against cross-site scripting vulnerabilities
+
+
+
+
+
+
+
+
+
+
+

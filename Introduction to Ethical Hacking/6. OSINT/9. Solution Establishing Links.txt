@@ -1,0 +1,97 @@
+1) Add Entities in Maltego
+
+To add the information I have gathered on Maltego, I opened Maltego on my Analyst machine and:
+
+1) Created a new graph
+
+2) Added a Company entity with a type of business organization that I named Maltego Technologies. NOTE: Maltego changes over time. If you don't see Company as an entity try Organization
+
+3) Added maltego.com and paterva.com as a Domain entity
+
+4) Added the subdomain information: courses.maltego.com, buy.maltego.com, and docs.maltego.com under *the Domain *entity
+
+5) Added the location of the subdomains using a Location entity
+
+6) Added URL entity for URL from where I found the information and named it Career Page.
+
+7) Added a Company/Organization entity named RiskIQ
+
+8) Added a Person identity with the information we gathered about the individuals we found
+
+9) Added another URL entity with the URL where I found that information.
+
+Building Links:
+
+2) Build Forward Links
+
+I added the following by dragging my mouse between entities:
+
+1) A forward link from Maltego Technologies to maltego.com named Found by Searching on Google
+
+2) A forward link from maltego.com to paterva.com named Shared SSL Certificate
+
+3) A forward link from maltego.com to all the subdomains labeled Found by Subdomain Finder
+
+4) Forward links from all the subdomains to their respective locations labeled Location of Server IP
+
+5) A forward link from maltego.com to the Career Page domain labeled Found on the main website
+
+6) A forward link from Career Page domain to the Munich location labeled Found this city on the job posts
+
+7) A forward link from Maltego Technologies to the Recent Event on Linkedin labeled Searched on Linkedin
+
+8) A forward link from Recent Event to the RiskIQ company named About Us section of the Event
+
+9) Forward links from Recent Event to the two people labeled About Us section of the Event
+
+3) Create Backward Links
+
+I used a similar process to create the following:
+
+1) Abackward Link from Brandon Dixon to RiskIQ named VP of RiskIQ
+
+2) A backward link from Dirk Wagner to Maltego Technologies labeled Employee, SME
+
+3) A backward link from Munich to Germany country labeled City in Germany
+
+4) A backward link from Dirk Wagner to Germany labeled Lives in Germany
+
+4) Run Transforms
+
+To create more links, I used transforms:
+
+	1) I right-clicked on the paterva.com entity to see all of the transforms available
+
+	2) I ran transforms on DNS and Email addresses from the domain
+
+5. Create a Collection
+
+To reduce the data to a more manageable amount, I created a collection by clicking on the Collections tab of Maltego and selecting "3"
+
+6. Add Notes
+
+To remind myself what I did, I added a note on paterva.com stating "Data has been mined using Transforms"
+
+I found a lot of data!
+
+How many links did you find?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

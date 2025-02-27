@@ -1,0 +1,17 @@
+We have done a lot already with automated scanning but now it’s time to do some manual testing. This lesson will cover System Auditing. There are five key areas of focus:
+
+	1) Test Scope
+	2) Information Gathering
+	3) Researching Vulnerabilities & Exploits
+	4) Executing Exploits
+	5) Report Writing
+
+We will finish this lesson with a small discussion on why some exploits are intentionally written with bugs in the exploit code
+
+By the end of the lesson, you will be able to:
+
+	1) Interpret the test scope document for audit
+	2) Gather and organize information about a target
+	3) Do vulnerability and exploit research
+	4) Execute exploit codes
+	5) Write industry-standard reports

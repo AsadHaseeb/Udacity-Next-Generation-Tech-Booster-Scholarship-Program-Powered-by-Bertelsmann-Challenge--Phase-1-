@@ -1,0 +1,71 @@
+Phishing Simulation with GoPhish
+
+Your organization wants to conduct a phishing simulation exercise. Your task is to set up a campaign in GoPhish with the configurations listed below.
+
+Sending Profile
+
+1) Sender: Austin Clarke / austin @example.com
+
+2) SMTP port: 25
+
+3) Sending profile credentials: phish @example.com / pass@123
+
+Users and Groups
+
+Import users from employees.csv(https://video.udacity-data.com/topher/2021/January/60086801_employees/employees.csv)
+
+Landing Page
+
+1) Clone your favorite website's login page or you can use the sbva.local's Login page
+
+2) Capture the passwords and redirect the user to the original login page after successful completion
+
+Email Template
+
+1) Write a subject line that takes advantage of the target's curiosity
+
+2) Include a message that uses urgency in the body
+
+Set Up the Campaign
+
+1) Create a campaign with the name ExampleCorp Q3 Phishing
+
+2) Set the campaign to send emails next Friday at 5 PM
+
+Supporting Materials
+
+employees.csv(https://video.udacity-data.com/topher/2021/January/60086801_employees/employees.csv)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

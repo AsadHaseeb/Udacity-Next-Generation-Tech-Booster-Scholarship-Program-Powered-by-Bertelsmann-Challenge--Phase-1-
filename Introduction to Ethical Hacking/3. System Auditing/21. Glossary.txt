@@ -1,0 +1,43 @@
+New Terms In This Lesson:
+
+Compiler: Software that converts source code into an executable file.
+
+Core-Impact: A commercial pentesting framework developed by Core Security that includes handcrafted premium exploits.
+
+CVE: (Common Vulnerability Exposure)	A list of known information security vulnerabilities.
+
+Interpreter: Software that executes the instructions from source code without compiling it. Python is one of the popular languages which supports the use of an interpreter.
+
+Listening Host (LHOST): The IP Address of the machine where a listener is running.
+
+Listening Port (LPORT): The open port on the machine where a listener is running.
+
+Metasploit: A commercial pentesting framework developed by Rapid7.
+
+NMap (Network Mapper): A popular open-source reconnaissance tool.
+
+NSE (Nmap Scripting Engine): A tool to write and share scripts to automate a wide variety of networking tasks.
+
+Payload: The malicious code that infects a target system.
+
+Reconnaissance: Gathering information about the target.
+
+Remote Host (RHOST): The target's IP Address.
+
+Remote Port (RPORT): The open port on the target's machine.
+
+Reporting: Sharing the results of an audit.
+
+Research: Finding known vulnerabilities and exploits.
+
+Rules for the assessment: An element in the scope that lists what is allowed and not allowed for performing an assessment.
+
+Target Database: A spreadsheet or specialized tool to store data collected during reconnaissance.
+
+Test Summary: An element in the test scope that explains why the test is being conducted, the context for the test, and the goal of the test.
+
+Validation: Using exploit code to confirm that a vulnerability exists.
+
+Work Breakdown Sheet: An element in the test scope that gives a high-level overview of the tasks to be performed.
+
+

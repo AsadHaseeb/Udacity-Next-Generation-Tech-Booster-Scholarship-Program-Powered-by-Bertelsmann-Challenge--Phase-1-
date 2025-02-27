@@ -1,0 +1,75 @@
+The Criticality Issue
+
+OSINT can be used for offensive operations, including going after hackers to uncover their identities when an organization is under a denial of service or a ransomware attack. However, this can be extremely dangerous.
+
+Guidelines For Offensive OSINT
+
+Offensive OSINT is always risky, but it will be more likely to succeed if you follow best practices. You should use:
+
+1) Out-of-band communication: You should avoid regular communication channels that could be monitored or disrupted. Using a secret email address or emergency phone number makes it more difficult for the hacker to monitor communications.
+
+2) Fake social media profiles: Social media providers often send notifications when a profile is viewed, so if you use your own account, the target may know that you are looking for them.
+
+3) Passive information gathering channels: Avoid tools that send information like your IP address to the target. If you need to use a tool that doesn't support passive information gathering, use a VPN connection from another country to disguise your origin.
+
+4) Need-to-know: Do not tell anyone about the analysis except the people you need to get data from to complete the analysis.
+
+New Terms
+
+Need-to-know: An information security principle where information is available to only those who need it. The existence of the information is often hidden from those who don't need the information.
+
+Out-of-band communication: Communication done via covert, non-traditional, or unusual channels.
+
+Passive information gathering: Information gathering where the analyst has no direct interaction with the target.
+
+Further Reading
+
+If you want to learn more about Offensive OSINT, watch this video on YouTube: SANS Webcast: OSINT for Pentesters Finding Targets and Enumerating Systems(https://www.youtube.com/watch?v=eHOMGUTi9yo). It covers Offensive OSINT from a perspective of penetration testing and offers many great insights.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

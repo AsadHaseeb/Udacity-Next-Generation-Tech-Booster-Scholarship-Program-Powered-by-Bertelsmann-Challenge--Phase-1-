@@ -1,0 +1,66 @@
+
+1) Vulnerability Management:
+
+	-> Vulnerability Scanning
+	-> Proritization and Response
+	-> Vulnerability Scoring
+	-> Game of False Results 
+
+2) System Auditing:
+
+	-> Test Scope 
+	-> Information Gathering
+	-> Researching Vulnerabilities & Exploits
+	-> Executing Exploits
+	-> Report Writing
+	-> Buggy Exploits
+
+3) Application Auditing:
+	
+	-> OWASP WSTG(Web Security Testing Guide)
+	-> Request and Response
+	-> Semi-Automated Tools
+	-> Fully Automated Tools
+	-> So Many things to Hack!
+
+4) Social Engineering:
+	
+	-> Five Opportunities in Human Psycology
+	-> Phishing Simulations
+	-> Creating Malware
+	-> Landing Page for Social Engineering
+	-> The Ethics of Social Engineering
+	
+5) OSINT:
+
+	-> Exploratory Link Analysis
+	-> Data Mining
+	-> Establishing links
+	-> Analyzing Links
+	-> Offensive OSINT
+
+Course Learning Objectives:
+
+By the end of the course, you will be able to...
+
+1) Manage the Vulnerability Lifecycle including scanning, analyzing, prioritizing and managing risk
+2) Conduct an internal systems and application audit based on international standards and methodologies.
+3) Write industry standard reports for various stakeholders of the organization.
+4) Manage an organization’s security awareness programs by emulating adversary activities and provide metrics for anticipating risk.
+5) Conduct an Audit the organization’s public exposure based on open-source intelligence. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

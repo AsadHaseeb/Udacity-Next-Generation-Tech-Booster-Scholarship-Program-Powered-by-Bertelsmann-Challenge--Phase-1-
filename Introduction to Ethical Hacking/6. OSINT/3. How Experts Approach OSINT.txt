@@ -1,0 +1,108 @@
+OSINT Is What Hackers Do In The Movies
+
+If you have watched movies about hacking, you may have seen hackers using the internet to find every bit of information they need to attack the target.
+
+In the real world, we use the internet too, but it typically doesn't provide enough information to be useful. So instead, we follow a more disciplined approach called Exploratory Link Analysis.
+
+Exploratory Link Analysis is a three-step process:
+
+1) Mining
+
+Review the data and information we already have and try to gather more data based on what we have. This can include:
+
+	1) The digital and physical infrastructure of the organization
+
+	2) The employees and other people associated with the organization
+
+	3) Information on operations, including events and announcements.
+
+2) Build Links
+
+Establish relationships between all the data gathered. We can create:
+
+	1) Forward links that tell us how old information is related to new information
+
+	2) Backward links that tell us how new information relates to the old source
+
+3) Analyze
+
+Examine the links and relationships we built
+
+	1) Look at the importance and closeness of elements
+
+	2) Create new information and develop conclusions
+
+New Terms: 
+
+Backward links: Connections from new information to an existing information source
+
+Exploratory Link Analysis: A scientific approach to use OSINT to discover information leakage
+
+Forward links: Connections from an existing information source to new information
+
+Mining: The first step in Exploratory Link Analysis, which involves gathering information from various sources. Mining can be done on Infrastructure, Operations, and Employees.
+
+Further Reading
+
+This article frem Secjuice shares another framework for thinking about OSINT: The Stoic Approach To OSINT(https://www.secjuice.com/osint-engagement-101/).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

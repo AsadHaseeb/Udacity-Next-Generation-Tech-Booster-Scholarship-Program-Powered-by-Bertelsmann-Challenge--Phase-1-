@@ -1,0 +1,19 @@
+OWASP WSTG divides the tests into 11 categories with over 100+ tests. Each test is different but there are few common elements
+
+1) Test ID is a unique number given to the specific test for documentation purposes.** **This always starts with WSTG followed by the category code, and then the test number in the category. Example - WSTG-BUSL-02 is the second test in Business Logic testing in WSTG.
+
+2) Summary Section provides us a basic overview of what the test is all about, why the test is done, and sometimes. the exact location of the weakness.
+
+3) How To Test is the most important element as it offers guidance on how to perform the test. WSTG provides detailed step by step instructions on how to perform the test with various test cases. These test cases are situations you may face with different applications and security mechanisms and WSTG offers various techniques that may be used by a security professional in those cases.
+
+4) References to tools and further reading are optional elements but can be helpful while learning about a test. These may include semi-automated tools, fully-automated tools, and/or external resources with more detailed information on the vulnerability or the test.
+
+Further Reading:
+
+You can access the OWASP WSTG and read more about it on OWASP: WSTG 4.1(https://owasp.org/www-project-web-security-testing-guide/v41/)
+
+
+
+
+
+

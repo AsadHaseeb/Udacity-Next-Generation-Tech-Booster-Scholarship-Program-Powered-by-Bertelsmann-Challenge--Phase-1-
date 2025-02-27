@@ -1,0 +1,223 @@
+Creating Websites For Social Engineering Attacks
+
+Creating an Effective Landing Page
+
+An effective webpage can influence decisions and actions. Creating a persuasive landing page requires a careful selection of words, images, videos, and other elements.
+
+Elements of An Effective Landing Page
+
+1) Bold Heading - Should never go more than 7-8 words, grab attention, and is clear.
+
+2) Sub Heading - Talk about results or the benefit.
+
+3) Video - Show yourself and create trust.
+
+4) Images - Convey your main idea clearly and reinforces the same idea three times with slight changes.
+
+5) Text - Keep it short, give them 5 to 6 reasons, and increase their confidence.
+
+6) Social Proof - Help them overcome their fears by showing what other people feel or have felt.
+
+7) Call to Action - ask them to take some action like create an account, download and run something, or simply call you.
+
+Working With A Base Template
+
+Edit the Website Template
+
+1) Download and extract the contents of the website template(https://video.udacity-data.com/topher/2021/January/6008a13c_website-template/website-template.zip)
+
+2) Edit index.html
+	1) Site title: : Change
+
+<title>Simple web page</title>
+
+to
+
+<title>Your website Title</title>
+
+	2) Heading and Subheading: These already match my finished site, but you can change the text inside the HTML tags to update it if you'd like:
+
+<h1 style="color: white;">The Super <u>SECRET METHOD</u> To Hacking Anyone</h1>
+<h2 style="color: white;">(How I Hacked <u>Three Thousand People Last Year</u>)</h2>
+
+	3) Video: Change videoidhere to the video ID number in your YouTube video url
+
+src="https://www.youtube.com/embed/vidoeidhere"
+
+to
+
+src="https://www.youtube.com/embed/IF_Z8kVZW3s"
+
+	4) Text, Testimontials and Call to action Replace the text inside the HTML tags as needed
+
+	5) Images
+
+		1) Add new images to the images folder
+
+		2) Update the image filenames in the <img> HTML tags to match the new file names
+<img src="images/img1.jpg" alt="not found" />
+
+Updated Code:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Webpage Title</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Start Header (section one)-->
+    <header>
+      <h1 style="color: white;">The Super <u>SECRET METHOD</u> To Hacking Anyone</h1>
+      <h2 style="color: white;">(How I Hacked <u>Three Thousand People Last Year</u>)</h2>
+      <div class="header-video">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/IF_Z8kVZW3s"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </header>
+    <!--End Header (section one)-->
+
+    <!--Start images and text section (Section two)-->
+    <section class="images-text">
+      <div class="images">
+        <div class="image" style="pointer-events: none;"><img src="images/img1.jpg" alt="not found" /></div>
+        <div class="image" style="pointer-events: none;"><img src="images/img2.png" alt="not found" /></div>
+        <div class="image" style="pointer-events: none;"><img src="images/img3.png" alt="not found" /></div>
+      </div>
+      <br><br><br>
+      <div class="text" style="color: white;">
+        <h2>Title for giving reasons why this PDF is important for the employees</u></h2>
+        <div class="lists">
+          <ul>
+            <li>Reason1</li>
+            <li>Reason2</li>
+            <li>Reason3</li>
+          </ul>
+          <ul>
+            <li>Reason4</li>
+            <li>Reason5</li>
+            <li>Reason6</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--End images and text section (Section two)-->
+    <!--Start testimonial (Section three)-->
+    <div class="testimonial">
+      <div class="reviews">
+        <div class="review">
+          <br><br>
+          <div class="image"><img src="images/stars.png" alt="not found"><br><b style="color: yellow;">5/5</b></div>
+          <p>Review here</p>
+          <h4>Name of person</h4><br>
+          <b>Job Position</b>
+          <br><br>
+        </div>
+        &nbsp;
+        <div class="review">
+          <br><br>
+          <div class="image"><img src="images/stars.png" alt="not found"><b style="color: yellow;">5/5</b></div>
+          <p>Review here</p>
+          <h4>Name of person</h4><br>
+          <b>Job Position</b>
+          <br><br>
+        </div>
+        &nbsp;
+        <div class="review">
+          <br><br>
+          <div class="image"><img src="images/stars.png" alt="not found"><b style="color: yellow;">5/5</b></div>
+          <p>Review here</p>
+          <h4>Name of person</h4><br>
+          <b>Job Position</b>
+          <br><br>
+        </div>
+      </div>
+      <br>
+      <a href="report.pdf"><button> >>> Download Today!<<< </button></a>
+    </div>
+    <!--End testimonial (Section three)-->
+  </body>
+</html>
+
+Host the Website:
+
+Create a local server in the terminal.
+
+1) Start a terminal in the folder that contains the index.html
+
+2) Start the server with: python -m http.server 80 OR python -m SimpleHTTPServer 80
+
+New Terms
+
+Call to Action: An element that invites a user to do something like clicking on a button, making a call, or following a link
+
+Page Template: A pre-formatted HTML page that can be used to create a website quickly
+
+Social Proof: Social Proof is a marketing tactic where a person is influenced to take an action by observing others taking that action. Examples include reviews, testimonials, and ratings
+
+Further Reading
+
+If you want to learn more about how to create effective landing pages, Check this article from Neil Patel: 7 Steps to a Perfect Landing Page.(https://neilpatel.com/blog/landing-page/) It explains how to use social proof, high-quality images, short user forms, and many other best practices with real-life examples.
+
+Supporting Materials
+
+website_template.zip(https://video.udacity-data.com/topher/2021/January/6008a13c_website-template/website-template.zip)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

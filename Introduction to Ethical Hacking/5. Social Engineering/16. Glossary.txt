@@ -1,0 +1,74 @@
+New Terms In This Lesson
+
+Bind Connection: A connection where the attacker's machine connects to an open port on the target's machine
+
+Call to Action: An element that invites a user to do something like clicking on a button, making a call, or following a link
+
+Dumpster Diving: A social engineering technique where the attacker looks for potentially valuable information in the organization's trash cans or dumpsters
+
+Handler: The piece of code that an attacker uses to issue commands to the infected victim machine
+
+Landing Page: The web page where the target lands after clicking a link in a phishing simulation
+
+Page Template: A pre-formatted HTML page that can be used to create a website quickly
+
+Payload: The malicious code that infects a target system
+
+Phishing: A social engineering attack where the attacker sends an email to the target to influence their actions to gain access or sensitive information
+
+Phishing Campaign: An organized security test using email to trick a user into revealing sensitive information.
+
+Phishing Simulation: A defensive exercise where the security analyst simulates a phishing attack in a controlled environment
+
+Reverse Connection: A connection where the target's machine connects back to an open port on the attacker's machine
+
+Sending Profile: A set of configurations that defines the identity of the email-sender in a phishing simulation, including name, email address, designation, and signature
+
+Simple Mail Transfer Protocol (SMTP): A protocol used to send and receive email messages. Common authentication method includes using a username and password combination
+
+Social Proof: Social Proof is a marketing tactic where a person is influenced to take an action by observing others taking that action. Examples include reviews, testimonials, and ratings
+
+Tailgaiting: A social engineering technique where the attacker closely follows a target to gain access to a restricted area. For example, when the target uses a key card to open a door, the attacker enters the room before the door closes.
+
+Vishing: A social engineering attack where the attacker calls the target to influence their actions to gain access or sensitive information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+Why Does Social Engineering Matter?
+
+People Are The Weak Link!
+
+Most systems in the modern world rely on both technology and people.
+
+When everything is configured properly and is patched regularly, technology is very reliable. Machines and devices rarely make mistakes.
+
+On the other hand, people can make mistakes all the time! Security breaches often occur when a bad actor takes advantage of human mistakes.
+
+Social Engineering Can Help Ethical Hackers
+
+An Ethical Hacker can use social engineering to:
+
+1) Access credentials required for exploits: Your system may have a vulnerability where the exploits require valid credentials, ranging from low-level standard user privileges or high-level admin privileges.
+
+2) Influence a user to take an action: Some types of attacks will only work when a user interacts with the system by turning off a machine, clicking on a link, or opening a file.
+
+In both of these situations, we can use social engineering to influence the user to give us the access we need.
+
+Further Reading
+
+If you want to learn more about the importance of social engineering in an organization, Read this article from Triaxiom Security: Why Is A Social Engineering Engagement So Important?(https://www.triaxiomsecurity.com/why-is-a-social-engineering-engagement-so-important/). It discusses the important role of social engineering and covers some common excuses organization's use for not having a well-defined social engineering program.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

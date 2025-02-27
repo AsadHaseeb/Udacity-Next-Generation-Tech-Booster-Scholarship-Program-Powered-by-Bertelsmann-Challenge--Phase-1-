@@ -1,0 +1,67 @@
+Using A Target Database:
+
+The goal of reconnaissance is to collect and store information in an organized manner. We collect information about our target including:
+
+	-> Open ports
+	-> Services running
+	-> Service version numbers
+	-> Operating system being used
+
+We organize and store this information in a target database
+
+Elements of Target Database:
+
+1) Generally, the IP Address or the URL of the target is listed under the column HOST
+
+2) Opened ports on the target are listed under the column PORT
+
+3) Protocols of the opened ports are listed under the column PROTO
+
+4) Services running on those ports are listed under the column SERVICE
+
+5) Versions of those services found are listed under the column VERSION
+
+6) Additional Information can be stored under the column COMMENTS
+
+Simple Target Database - Pen and Paper
+
+We could just write down all of the information using a pen and paper, but that would be very time consuming, and as the list gets longer, it would be difficult to keep organized.
+
+Better Target Database - Spreadsheet
+
+A better option is to use a simple spreadsheet as our target database. We can create a row for each bit of information and columns to store each type of data.
+
+Professional Target Database - Specialized Tool
+
+Professionals often use specialized tools including Metasploit, Core-Impact, and others that make it easier to set up and manage the database.
+
+New Terms
+
+Core-Impact: A commercial pentesting framework developed by Core Security that includes handcrafted premium exploits
+
+Metasploit: A commercial pentesting framework developed by Rapid7
+
+Target Database: A spreadsheet or specialized tool to store data collected during reconnaissance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

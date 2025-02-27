@@ -1,0 +1,18 @@
+Information Gathering Using Metasploit:
+
+Your task is to perform information gathering and build a target database on TestLab using your Analyst VM.
+
+For this exercise, you will use the TestLab virtual machine (TestLab.ova) and target 10.10.10.15.
+
+Follow the tasks below to complete the exercise:
+
+(In Exercise Files & Resources)
+
+
+
+
+
+
+
+
+

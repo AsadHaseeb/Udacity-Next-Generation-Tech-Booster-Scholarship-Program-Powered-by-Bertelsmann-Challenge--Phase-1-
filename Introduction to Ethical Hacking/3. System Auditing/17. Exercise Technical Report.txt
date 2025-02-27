@@ -1,0 +1,25 @@
+Report On Testlab:
+
+Based on your findings from the earlier exercises in this lesson, write the Detailed Technical Report section of the security audit report.
+
+Write the report using the provided template: Security Report Template(https://video.udacity-data.com/topher/2021/January/6001a899_test-lab-report-template/test-lab-report-template.docx).
+
+The template is a .docx format that can be opened using most popular word-processing systems, including Microsoft Word and Google Docs. To use the worksheet in Google Docs:
+
+1) Upload the document to your Google Drive
+
+2) Click Open with Google Docs at the top of the screen
+
+Supporting Materials:
+
+TestLab Technical Report Template(https://video.udacity-data.com/topher/2021/January/6001a899_test-lab-report-template/test-lab-report-template.docx)
+
+
+
+
+
+
+
+
+
+

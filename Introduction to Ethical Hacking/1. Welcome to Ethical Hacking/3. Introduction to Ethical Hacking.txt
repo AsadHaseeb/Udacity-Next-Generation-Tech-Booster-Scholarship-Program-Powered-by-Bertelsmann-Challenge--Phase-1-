@@ -1,0 +1,9 @@
+We live in a world where everything is connected to the internet - our businesses, our homes, our phones, our cars, and sometimes even our light bulbs!
+
+All of these connections involve data that is passed from one system to another. This data can be very valuable and it can be very tempting for bad actors to steal, destroy, or manipulate this data for nefarious purposes.
+
+The cost of a breach is can be high, so organizations need to protect their data. The best way to do this involves continuous testing, patching, and monitoring.
+
+Organizations hire people who continuously test the systems and spot weaknesses that a malicious hacker may take advantage of. They find the weakness and help mitigate it, and keep watch for new issues.
+
+This is what Ethical Hacking is all about!

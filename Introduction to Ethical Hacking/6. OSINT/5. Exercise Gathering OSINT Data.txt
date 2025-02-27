@@ -1,0 +1,27 @@
+Your task is to choose an organization and perform OSINT on its infrastructure and operations.
+
+OSINT on Infrastructure
+
+1) Find any domain names associated with that organization
+2) Find any subdomains, if available
+3) Find any physical locations that might be associated with the organization or the domains you found
+
+OSINT on Operations
+
+1) Find any hiring requirements
+2) Find the latest events of the organization
+3) Find the key employees who are recently active on social media about the organizational activities
+
+
+
+
+
+
+
+
+
+
+
+
+
+

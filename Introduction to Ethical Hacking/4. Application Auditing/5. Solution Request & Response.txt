@@ -1,0 +1,58 @@
+Solution: Request and Response
+
+1) Open a Terminal in your analyst machine and send a GET request to fetch the contents of the configuration file.
+
+-> curl -X GET http://sbva.local/includes/config.db
+
+This will return the contents of the file: env.production=true
+
+2) Check the response code by adding --head
+
+-> curl -X GET http://sbva.local/includes/config.db --head
+
+The 200 OK response code tells you that the resource exists and is accessible.
+
+3) Query the enabled HTTP Methods on the server using the OPTIONS method.
+
+-> curl -X OPTIONS http://sbva.local/includes/config.db --head
+
+This will confirm that the GET, HEAD, PUT and DELETE methods are available.
+
+4) Create a config.db file on your analyst machine -- but set the contents to env.production=false
+
+5) Use a PUT method to replace the config file with the one you created
+
+-> curl -X PUT -T config.db http://sbva.local/includes/config.db
+
+If you open the website in your browser you will now see a “Test Environment” message on the top right corner
+
+6) Use the DELETE method to delete the configuration file.
+
+-> curl -X DELETE http://sbva.local/includes/config.db
+
+If you open the website in your browser you will now get an error message stating that the config file is missing
+
+7) You can also verify the deletion by sending another GET request
+
+-> curl -X GET  http://sbva.local/includes/config.db
+
+Important! Re-Import the VM After Completing the Exercise
+
+If you completed this exercise correctly you should have broken the sbva virtual machine by deleting its configuration file. Since you will need this virtual machine for rest of your journey, you should do a clean re-import of the ova file to return the sbva VM to its previous working state.
+
+Step 1: Remove the sbva.local VM from your system
+
+1) Power Off the sbva.local VM
+2) Right-click on the sbva.local machine and select Remove
+3) If asked to keep or delete files, choose the option that says Delete All Files
+
+Steps 2: Reinstall sbva.local
+
+1) Download the virtual machine: SBVA.ova(https://udacity-ehnd.s3-us-west-2.amazonaws.com/Ethical+Hacker/SBVA.ova)
+
+2) Import the course .ova files by selecting File > Import Appliance
+
+3) Configure the network settings in the machine by selecting Machine > Settings > Network > Adapter 1 and choosing the NAT network you just created
+
+Note: the .ova file is very large and may take a long time to download if you have a slow internet connection.
+

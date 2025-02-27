@@ -1,0 +1,63 @@
+Social Engineering
+
+In this lesson, we will be looking at social engineering. Social engineering is about influencing people’s actions.
+
+There are four key areas of focus:
+
+1) Five Opportunities In Human Psychology
+
+2) Phishing Simulations
+
+3) Creating Malware
+
+4) Landing Page For SE
+
+We will finish this lesson with a small discussion on the ethics of social engineering.
+
+By the end of the lesson, you will be able to:
+
+1) Understand how hackers target emotions in social engineering attacks
+2) Conduct enterprise-level phishing simulations
+3) Create malware for various operating systems
+4) Create highly persuasive web pages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

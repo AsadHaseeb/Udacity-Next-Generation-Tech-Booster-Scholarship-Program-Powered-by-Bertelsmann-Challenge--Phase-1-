@@ -1,0 +1,147 @@
+Introduction To Semi-Automated Tools:
+
+Web applications can be tested manually by crafting requests, but this method is slow because only a single request can be sent at a time.
+
+Semi-automated tools solve this problem by allowing an analyst to automate repetitive tasks. They generally work on a proxy-based architecture where the request from the analyst's browser is sent to the tool and forwarded to the target website.
+
+Using the tool, the request can be modified, forwarded, or dropped. The tool can also make minor changes to the request and resend it, allowing us to run thousands of test cases efficiently.
+
+Setting Up a Project In Burp Suite:
+
+Burp Suite is a commonly used web app testing tool. The community and pro edition are semi-automated and the enterprise edition is fully-automated.
+
+1) Open a terminal and type burpsuite to launch it.
+
+2) Accept the user agreement and click Next and Start Burp
+
+3) In the Target tab, click Add and enter the target URL: http://sbva.local
+
+4) Select Yes in the Proxy history logging popup to ensure that Burp Suite only looks at this domain
+
+5) Navigate to Proxy > Options and find the Burp Proxy address and port. In my case, it was 127.0.0.1:8080.
+
+6) Configure a manual proxy in your browser. In Firefox:
+
+	1) In Preferences search for proxy. 
+	2) Click on Settings and add a Manual Proxy using the HTTP proxy and port from Burp Suite. 
+	3) Click OK to save.
+
+7) Open http://sbva.local in the browser. The request will be routed to Burp Suite.
+
+8) The request will appear in the Intercept tab in the Proxy section of Burp Suite. If you do not see a request, click the Intercept is off button to turn the intercept on.
+
+9) Click Drop to drop the request
+
+10) Turn intercept off by clicking the Intercept is on button.
+
+Using Burp Suite To Perform A Dictionary Brute-force Attack:
+
+A Dictionary brute-force attack involves trying a lot of passwords from a password list file. This means that we will be sending the same request but with a minor change which is a password. This task is impractical if done manually since there might be millions of passwords in a password list. Hence burp suite can be used to do this effeciently.
+
+1) In your browser, navigate to http://sbva.local/login.php and try to login with an incorrect username and password to create a request.
+
+2) Locate the request in the HTTP History tab in Burp Suite
+
+3) Right-click on the request and select Send to Intruder
+
+4) In Intruder > Positions, clear the marked positions by clicking Clear
+
+5) Change the username as alice and password to abc
+
+6) Select abc and click Add to add it as a position
+
+7) Create a list of passwords to check in a text file
+
+8) In Intruder > Payloads , load the password list
+
+9) In intruder > Options. Clear everything in grep match and add the "Welcome" keyword which is sent to the page after a successful login
+
+10) Click on Start attack
+
+11) View and analyze the results
+
+New Terms:
+
+Burp Suite: A suite of application security testing tools developed by Portswigger.
+
+Dictionary Brute Force Attack: A password cracking attack that tries every combination of usernames and passwords from a list.
+
+Intruder Tab: A Burp Suite tab used to automate sending a request with multiple minor changes
+
+Proxy: A system placed in the middle of an active communication between a client and server. When a client sends a request to the server, it is routed through the proxy before reaching the server. Similarly, when the server returns a response, it routes through the proxy before reaching the client.
+
+Proxy Tab: A Burp Suite tab used to intercept a request and modify, forward, or drop it. It can also be used to check previously sent requests and responses.
+
+Semi-Automated Tools: Proxy-based tools that intercept a request from the analyst's browser and modify, forward, or drop it. These tools can automate sending and analyzing thousands of requests to increase testing efficiency
+
+Further Reading:
+
+1) To learn more about Burp Suite, read this guide in Kali Linux Tutorials: Burpsuite – A Beginner’s Guide For Web Application Security or Penetration Testing(https://kalilinuxtutorials.com/burpsuite/). It covers all of the tabs and functions of Burp Suite in detail.
+
+2) OWASP ZAP is an open-source semi-automated that is similar to Burp Suite. You can learn about the differences between the two in this Jaw33sh Blog post: Burp Suite vs OWASP ZAP – a Comparison series(https://jaw33sh.wordpress.com/2020/11/22/burp-suite-vs-owasp-zap-a-comparison-series/).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

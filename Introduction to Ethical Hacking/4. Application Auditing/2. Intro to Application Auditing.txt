@@ -1,0 +1,43 @@
+Why Is Application Auditing Important?
+
+Web applications are a huge part of any organization's infrastructure, so it is critical to audit their security.
+
+How Is Application Auditing Different From Systems Auditing?
+
+Auditing web apps is different from auditing systems because we need to look for vulnerabilities in the code and deployment instead of looking at services and ports.
+
+OWASP Web Security Testing Guide:
+
+The OWASP Web Security Testing Guide(https://owasp.org/www-project-web-security-testing-guide/v41/) provides critical guidance for testing web applications. OWASP WSTG 4.1 includes more than one hundred tests in eleven categories.
+
+WSTG Categories:
+
+1) Information Gathering(https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/01-Information_Gathering/README.html): similar to the reconnaissance phase of system testing
+
+2) Configuration and Deployment Management Testing(https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/README.html): related to securely configuring and deploying the web app on the internet
+
+3) Identity Management Testing(https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/03-Identity_Management_Testing/README.html): tests for usernames and user registration.
+
+4) Authentication Testing(https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/04-Authentication_Testing/README.html): tests related passwords and other authentication mechanisms
+
+More WSTG Categories:
+
+1) Authorization Testing(https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/05-Authorization_Testing/README.html): tests related to the access level of the user.
+
+2) Session Management Testing(https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/README.html): how the web app manages a user login session.
+
+3) Input Validation Testing(https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/README.html): tests related to user input and validation on the web application and server
+
+4) Testing for Error Handling(https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/README.html): deals with the web application’s behavior when an error occurs
+
+5) Testing for Weak Cryptography(https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/README.html): looks at encryption and hashing algorithms for data storage and transit
+
+6) Business Logic Testing(https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/10-Business_Logic_Testing/README.html): considers how the app reacts in both typical situations and edge cases when users do something unexpected or unusual
+
+7) Client-Side Testing(https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/README.html): tests the application against attacks where server-side processing isn't required
+
+Further Research:
+
+In this video from GOTO 2018, Philippe De Ryck discusses the top ten web application security risks and the OWASP Application Security Verification Standard: GOTO 2018 • From the OWASP Top Ten(s) to the OWASP ASVS(https://www.youtube.com/watch?v=Gnxk_uf6qTQ&feature=youtu.be).
+
+This article from the Alpine Security blog discusses why web application auditing is necessary - Web Application Penetration Testing: Why It’s Necessary and What You Need to Know(https://alpinesecurity.com/blog/web-application-penetration-testing-why-its-necessary-and-what-you-need-to-know/).

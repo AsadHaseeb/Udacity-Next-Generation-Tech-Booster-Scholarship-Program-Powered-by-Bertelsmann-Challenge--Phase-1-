@@ -1,0 +1,89 @@
+Reconnaissance With MSF
+
+The target IP address is mentioned as 10.10.10.20 in the video, but while experimenting you will consider the Testlab VM with IP address - 10.10.10.15.
+
+Metasploit-Framework (MSF) is a toolkit that includes hundreds of tools and a workspace for testing. It automatically creates and maintains a target database in the workspace.
+
+MSF can integrate with Nmap directly by replacing Nmap with db_nmap for scanning. All the scan results are automatically saved in the Metasploit target database of the selected workspace.
+
+Apart from the Nmap integration, Metasploit features more than 500 built-in scanners which can be used to gather specific information from multiple services and applications.
+
+Using Nmap and Metasploit-Framework:
+
+1) Metasploit maintains all its data in Postgresql database so you can start the service using
+
+service postgresql start
+
+1) Initialize the database and check it's configurations using msfdb init
+
+2) Launch Metasploit console using msfconsole
+
+3) Create a workspace using workspace -a (workspace-name)
+
+workspace -a udacity
+
+1) Switch workspace using workspace udacity
+
+2) We can run Nmap commands within the Metasploit using db_nmap and the results will automatically get saved in the target database of the current workspace.
+
+db_nmap -p- -O -sT -sU -sV 10.10.10.15
+
+1) To check the data stored in the target database, we use the commands hosts and services
+
+Using Auxiliary Modules in Metasploit-Framework
+
+We can do information gathering using the auxiliary modules. There are more than 500 scanners in Metasploit.
+
+1) Find a scanner by usingsearch type:auxiliary (keyword) and specifying the type as auxiliary:
+
+search type:auxiliary smb
+
+1) To select a scanner from the list, you can use the use (module-name) command
+use auxiliary/scanner/smb/smb1
+
+1) To check the available options of the module, We can use "show options".
+
+2) To change any option, We can use set (option) (option value)
+
+set RHOST 10.10.10.15
+
+1) Execute the scanner using the run command
+
+New Terms:
+
+Core-Impact: A commercial pentesting framework developed by Core Security that includes handcrafted premium exploits
+
+Metasploit: A commercial pentesting framework developed by Rapid7
+
+NMap (Network Mapper): A popular open-source reconnaissance tool
+
+NSE (Nmap Scripting Engine): A tool to write and share scripts to automate a wide variety of networking tasks
+
+Target Database: A spreadsheet or specialized tool to store data collected during reconnaissance
+
+Further Reading:
+
+If you want to learn more about information gathering, you can read this guide from Security Trails: Information Gathering: Concept, Techniques, and Tools explained(https://securitytrails.com/blog/information-gathering). It contains actionable insights and information about other tools you can use.
+
+To learn more about how to use Nmap, check out their documentation: Nmap Reference Guide - Chapter 15(https://nmap.org/book/man.html). You'll refer to this guide frequently as an Ethical Hacker.
+
+You can refer to this guide from Offensive Security: Metasploit Unleashed(https://www.offensive-security.com/metasploit-unleashed/port-scanning/) to learn more about the Metasploit-Framework.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

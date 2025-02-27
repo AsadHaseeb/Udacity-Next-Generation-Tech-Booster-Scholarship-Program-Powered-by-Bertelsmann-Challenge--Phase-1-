@@ -1,0 +1,85 @@
+Getting Set Up For the Course
+In this course, we will be using some code that could be dangerous if it is run on a real machine.
+
+The code we will be using can:
+
+	1) cause overheating
+	2) crash programs
+	3) corrupt the operating system
+
+In addition, legal issues can arise if you intentionally or unintentionally harm other people’s devices using the tools and skills you will learn in this course.
+
+To avoid these risks, we will use virtual machines for the exercises and the project in this course. The virtual machines will provide a safe and legal environment to learn and practice your hacking skills.
+
+Steps To Set Up The Course Environment:
+
+1) Download and install VirtualBox
+
+2)Create a NAT network by selecting File > Tools > Network Manager > NAT Networks tab:
+	Name - ExampleCorpNet
+	CIDR - 10.10.10.0/24
+
+3) Download Kali Linux for VirtualBox from the official site
+
+4) Add the Kali Linux machine to your VirutalBox by simply running the vbox file. During the course, this machine is referred to as 'analyst' or 'attacker' machine.
+
+5) Configure the network settings in the machine by selecting Machine > Settings > Network > Adapter 2 and choosing the NAT network you just created
+
+6) Configure and update your machine (instructions below)
+
+7) Download the target virtual machines
+
+8) Import the course .ova files by selecting File > Import Appliance
+
+9) Configure the network settings in each machine by selecting Machine > Settings > Network > Adapter 1 and choosing the NAT network you just created
+
+Course Virtual Machines Download Links:
+
+	1) TestLab Machine - TestLab.ova(https://udacity-ehnd.s3-us-west-2.amazonaws.com/Ethical+Hacker/TestLab.ova)
+	2) SBvA Machine - SBVA.ova(https://udacity-ehnd.s3-us-west-2.amazonaws.com/Ethical+Hacker/SBVA.ova)
+
+Note:
+
+1) The .ova files are very large and may take a long time to download if you have a slow internet connection.
+
+2) Ensure the target VM is turned on and remains on the login page during the scan. Do not log in to the target VM.
+
+Configuring Hosts in the Kali Linux Machine:
+
+To ensure you can reach the target machines during the course, you need to edit the hosts file on your Kali Linux machine. Follow these steps:
+
+1) Open a Terminal:
+	Press Ctrl+Alt+T to open a terminal window.
+
+2) Edit the Hosts File:
+
+	Run the following command to open the hosts file in the Nano text editor:
+	sudo nano /etc/hosts
+
+3) Add Target Host Entries:
+	In the Nano editor, add the following lines to the file:
+	10.10.10.10    example.com
+	10.10.10.15    testlab.example.com testlab.local
+	10.10.10.101   sbva.local
+
+4) Save and Exit Nano:
+	Press Ctrl+X to begin the process of exiting the Nano editor.
+	When prompted to save changes, press Y (for "Yes").
+	Press Enter to confirm the file name and save the changes.
+
+Your hosts file is now configured, allowing you to reach the specified targets by their hostnames.
+
+Updating Your Kali Linux Machine:
+
+After downloading and adding the Kali Linux machine, it is important to ensure it has the latest software versions. Follow these steps to update your Kali Linux machine:
+
+	Login to the Kali Linux Machine:
+		Use the default credentials to login:
+			Username: kali
+			Password: kali
+
+	Update the System:
+		Open a terminal and run the following commands to update and upgrade all packages:
+			sudo apt update && sudo apt upgrade
+
+These commands will download and install the latest updates for all installed packages, ensuring your Kali Linux machine is up-to-date.

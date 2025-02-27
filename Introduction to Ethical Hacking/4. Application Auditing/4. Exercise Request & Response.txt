@@ -1,0 +1,20 @@
+Using Request And Response:
+
+Your target for this exercise is the configuration database file of the SBVA virtual machine which is located at http://sbva.local/includes/config.db
+
+Your goal is to complete two tasks:
+
+1) Modify the contents of the config file using a PUT request
+
+2) Delete the configuration file using a DELETE request
+
+You can use curl to make both requests. As a reminder, the basic usage syntax for curl is:
+
+-> curl -X <request method> <target> <options>
+
+To determine the exact curl statement to use, you may need to do further research. Here are two suggestions
+
+1) Run a curl -h command in your terminal to pull up the curl help menu
+
+2) Search the internet search for the type of command you want to run
+

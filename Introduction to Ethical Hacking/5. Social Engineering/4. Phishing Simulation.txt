@@ -1,0 +1,86 @@
+Managing a Phishing Simulation
+
+What is Phishing?
+
+Phishing is a social engineering attack where an attacker sends an email to the victim to entice them to take some action (e.g. clicking on a link to open a URL or downloading a file and running it) which opens a vulnerability for the attacker.
+
+Since the attack focuses on people and not on technology, it is not possible to defend it using technology.
+
+Instead, we need to use simulation exercises to identify the employees who are most vulnerable to this type of attack. That allows us to provide training for those employees to help them recognize and avoid phishing attacks.
+
+Managing a Phishing Simulation
+
+A phishing simulation generally has five steps:
+
+1) Configure the sending profile This is where we configure the email address we want to send the phishing emails from.
+
+2) Import users You may want to divide the users into groups based on their job positions or departments. That allows you to send different campaigns to different groups or at different times. This can be especially helpful if you are working with a large organization.
+
+3) Build a landing page A landing page is a website where the phishing email recipients will land if they click the link in your email. It is very easy to clone existing websites. Popular social media login pages are often cloned for phishing attacks.
+
+4) Create an email Creating a realistic email is the most important part of the process and requires extensive research and analysis of the users. The users will not open the email if its subject line does not interest them and they'll stop reading after the few lines if the email is poorly written. They will not click on the link unless there is a compelling reason to do so.
+
+5) Organize into a Campaign It’s like creating a small project. You set the time when users will get the email and you use a dashboard to see how many employees opened the email, how many clicked on the link, and who submitted data.
+
+New Terms: 
+
+Landing Page: The web page where the target lands after clicking a link in a phishing simulation
+
+Phishing Campaign: An organized security test using email to trick a user into revealing sensitive information.
+
+Phishing Simulation: A defensive exercise where the security analyst simulates a phishing attack in a controlled environment
+
+Sending Profile: A set of configurations that defines the identity of the email-sender in a phishing simulation, including name, email address, designation, and signature
+
+Simple Mail Transfer Protocol (SMTP): A protocol used to send and receive email messages. Common authentication method includes using a username and password combination
+
+Further Reading
+
+Apart from phishing, There are many other types of social engineering attacks. Learn more about some of them here: IT Governance: What is social engineering?(https://www.itgovernance.co.uk/social-engineering-attacks)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

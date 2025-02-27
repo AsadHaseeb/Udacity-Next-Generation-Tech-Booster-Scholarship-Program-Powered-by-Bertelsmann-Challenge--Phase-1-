@@ -1,0 +1,40 @@
+Why Does System Auditing Matter?
+
+Automated Testing Is Not Enough
+
+	An automated scan may lead to false positives, false negatives, or both! That is why a manual system audit is necessary.
+
+Manual Validation Can Improve Accuracy
+
+1) False Positives - We take all the findings of automated scans and test them one by one. We find the exploits and try to run them and see if the vulnerability actually exists
+
+2) False Negative - Retesting for missing items can help us avoid false negatives. Here we look for things that the automated scanner can miss, like the possibility of a chained vulnerability.
+
+Security Auditing Is Not an Art, It's a Science:
+
+Most organizations use a four-phase methodology for system auditing.
+
+Four Phases of System Auditing:
+
+1) Reconnaissance - Gathering information about the target
+2) Research - Finding known vulnerabilities and exploits on our target
+3) Validation - Modifying the exploit code to validate vulnerabilities
+4) Reporting - Writing a report to share the results of the audit
+
+New Terms:
+
+Reconnaissance: Gathering information about the target
+Reporting: Sharing the results of an audit
+Research: Finding known vulnerabilities and exploits
+Validation: Using exploit code to confirm that a vulnerability exists
+
+Further Reading:
+
+This article shares a similar framework for system auditing: What Are the Penetration Testing Steps?(https://kirkpatrickprice.com/blog/7-stages-of-penetration-testing/). It describes a seven-step process that is similar to the four-step framework described above but splits the first phase into three parts and the last phase into two.
+
+If you want to learn more about the differences between automated and manual scanning, read this article: The Great Debate: Automated vs. Manual Penetration Testing(https://www.srsnodgrass.com/the-great-debate-automated-vs-manual-penetration-testing/?print=print).
+
+
+
+
+

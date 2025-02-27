@@ -1,0 +1,64 @@
+Secrets Of Social Engineering
+
+Social Engineering is About Understanding Psychology and Human Emotions
+
+Social Engineering is not about terms like phishing, vishing, dumpster diving, tailgating, etc.
+
+There are Five Opportunities In Human Psychology:
+
+1) Greed influences emotions as well as logic. People want to possess things that they don’t need.
+
+2) Fear can occur when people worry about the future or when people start focusing on regrets.
+
+3) Urgency makes people panic and take action.
+
+4) Curiosity is the continual desire to discover and investigate new things.
+
+5) Helpfulness is an opportunity that enables teamwork and supporting one another for a greater good or larger purpose.
+
+These are the five fundamental opportunities that a good social engineer needs to understand and take advantage of.
+
+New Terms
+
+Dumpster Diving: A social engineering technique where the attacker looks for potentially valuable information in the organization's trash cans or dumpsters
+
+Phishing: A social engineering attack where the attacker sends an email to the target to influence their actions to gain access or sensitive information
+
+Tailgating: A social engineering technique where the attacker closely follows a target to gain access to a restricted area. For example, when the target uses a key card to open a door, the attacker enters the room before the door closes.
+
+Vishing: A social engineering attack where the attacker calls the target to influence their actions to gain access or sensitive information
+
+Further Reading
+
+The article from SecureWorld shares more examples of how emotions can be used in social engineering: 5 Emotions Used in Social Engineering Attacks(https://www.secureworldexpo.com/industry-news/5-emotions-hackers-use-social-engineering-attacks).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

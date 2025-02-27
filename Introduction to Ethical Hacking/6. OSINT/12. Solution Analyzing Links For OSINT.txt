@@ -1,0 +1,76 @@
+How I Analyzed Links For OSINT
+Here are the steps I took:
+
+1. Analyze data using the Hierarchical Layout
+When I click on Bob Smith
+
+	1) The right arrow to Bob takes us to Paterva, whose original creator is Maltego
+	2) The left arrow Bob takes us to Event on LinkedIn
+	3) The event is linked to another person Alice Jones, who is a VP at Example Corp and related to Maltego.com
+
+Analyzing the graph in the hierarchical layout shows that the authoritative and important entities are:
+
+1) Maltego.com
+2) Alice Jones
+3) Event on Linkedin
+4) Bob Smith
+5) Maltego Technologies
+6) Paterva
+7) Maltego Tools
+
+2. Analyze the data using the Circular Layout
+In the middle circle, I found the same entities:
+
+1) Maltego.com
+2) Maltego Tools
+3) Maltego Technologies
+4) Event on Linkedin
+5) Paterva.com
+6) Paterva
+7) Bob Smith
+
+3. Analyze the data using the Organic Layout
+
+I found three concentrations
+
+1) Paterva.com
+2) Maltego.com
+3) A star-like shape at Bob Smith
+
+I learned:
+
+1) Maltego.com has shared an SSL certificate with Paterva.com
+2) Paterva.com has an HTTP redirect to Maltego.com
+3) Bob Smith is an employee of Maltego Technologies, and he was previously employed at Paterva
+4) Paterva created the Maltego tool, but Maltego Technologies manages the Maltego tool
+5) Maltego Technologies is in Germany, Bob Smith lives in Germany, and Paterva.com was also very active in Germany over the past few days
+
+As a result of these observations, I concluded that either Paterva was bought by Maltego Technologies, or Paterva has been rebranded as Maltego Technologies.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

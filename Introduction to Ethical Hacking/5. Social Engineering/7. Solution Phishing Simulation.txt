@@ -1,0 +1,97 @@
+1) Configure The Sending Profile
+
+	1) Login to Gophish using the provided credentials
+
+	2) Navigate to the Sending Profile page and click on the New Profile button.
+
+	3) Fill in all fields:
+		Name: ExampleCorp Sending Profile
+		From: Austin Clarke <austin@example.com>.
+		Host: mail.example.com:25
+		Username: phish@example.com
+		Password: pass@123
+
+	4) Click on Save Profile
+
+2) Create Users and Groups
+
+	1) Navigate to the Users & Groups tab and click on New Group.
+
+	2) Fill in the Name field: All Users.
+
+	3) Use Bulk Import Users to import employees.csv
+
+3) Configure The Landing Page
+
+	1) Navigate to the Landing Pages page and click on the New Page button.
+
+	2) Give the page a Name: Bansal X Login
+
+	3) Click on Import Site and import https://bansalx.com/wp-admin to copy the HTML code for the landing page.
+
+	4) Check the Capture Submitted Data and the Capture Passwords boxes.
+
+	5) In the Redirect To: field enter https://bansalx.com/wp-admin
+
+	6) Click on the Save Page button.
+
+4) Configure The Email Template
+
+	1) Navigate to the Email Templates page and click on the New Template button.
+
+	2) Give the template a Name: Email 1.
+
+	3) Add the Subject: You won't believe what he did.
+
+	4) Add the Text:> Hey mate, > Ben (the accounting guy) just posted a video about our office. He is sharing every one of our secrets and I am sure he will get fired. > Sending it to everyone before it is taken down by our IT team > Here is the link - {{.URL}}
+
+Enjoy!
+Austin Clarke
+
+5) Click on Save template.
+
+5. Set Up A Campaign
+
+1) Navigate to the Campaigns page, click on the New Campaign button.
+
+2) Name the campaign: ExampleCorp Q3 Phishing`.
+
+3) From dropdowns select the elements you just created:
+	Email template: Email 1
+	Landing Page : Bansal X Login
+	Sending Profile: ExampleCorp Sending Profile
+
+4) In the URL box enter the IP address: https://10.10.10.7
+
+5) Set the Launch Date to next Friday at 5PM.
+
+6) Select All Users as the target group for the campaign in the Groups dropdown.
+
+7) Click on the Launch Campaign button.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

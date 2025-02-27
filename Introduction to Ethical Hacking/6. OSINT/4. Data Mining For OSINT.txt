@@ -1,0 +1,81 @@
+Keep An Eye On Employees
+
+Three Sources of OSINT Data
+
+Infrastructure: 
+
+There are two types of infrastructure: physical and digital.
+
+When looking at a physical infrastructure, we may want to find the organization's office location. Generally, you will find this on the organization’s website. You can look further by getting information about building entrances and exits using online maps and satellite imaging solutions like Google Street View.
+
+In terms of digital infrastructure, we'll want to find the domain names and the IP addresses of the server owned by the organization. DNS records can tell us what email services the organization uses, and, we'll want to learn about the technologies used on their servers and applications.
+
+Operations:
+
+For information on internal operations, we might look for the employee work shift schedule and the resource requirements in terms of people and technology. You can find this information on job posting sites, freelance websites, or the Careers page of the organization's website
+
+On the external side, we might look for partner networks for sales communication or distribution. This information can be easy to find, especially if a company has a dedicated section of their website to promote their partnerships. We can also learn a lot from events hosted by the organization by looking at their social media profiles and event pages on their website. Often, we can find photographs from previous years that can contain sensitive information, such as the coordinators' emails and contact info.
+
+Employees:
+
+The organization’s employees may leak information on social media and other websites. For example, LinkedIn is a good source to learn about an employee’s professional life, and you can learn personal information on sites like Facebook and Instagram. Social media is especially helpful because images often leak more information than text does.
+
+Employees may also have personal websites for projects, such as blogs. These sites usually have a Contact, About, or Author page which can be a rich source of information. We can also use Caller ID and People Search databases to find physical addresses, email addresses, and phone numbers.
+
+OSINT Framework
+OSINT Framework is an online directory listing of all the data sources categorized into 30+ subcategories of information that includes infrastructure, operations, and employees.
+
+This framework can be found on https://osintframework.com
+
+New Terms
+
+Digital Infrastructure: Assets owned or leased by an organization to support digital operations, including email servers, websites, IP addresses, domain names, and software licenses
+
+External Operations: An organization's operational activities related to its supply chain, distribution network and community partners
+
+Internal Operations: An organization's operational activities related to internal systems, processes, events, and employees
+
+OSINT Framework: An online directory containing sources of OSINT hosted at https://osintframework.com
+
+Physical Infrastructure: Assets owned or leased by an organization to support physical operations, including office buildings, security cameras, lighting, power supply units, furniture and fixtures, and computer systems
+
+Further Reading:
+
+If you want to learn more about the OSINT Framework, read this article from SecurityTrails: OSINT Framework: The Perfect Cybersecurity Intel Gathering Tool(https://securitytrails.com/blog/osint-frameworkopens in a new tab) It walks through several OSINT examples.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

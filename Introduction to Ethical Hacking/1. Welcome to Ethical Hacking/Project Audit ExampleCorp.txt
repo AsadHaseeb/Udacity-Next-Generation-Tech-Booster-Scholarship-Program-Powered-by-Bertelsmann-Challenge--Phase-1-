@@ -1,0 +1,18 @@
+Audit ExampleCorp
+
+At the end of this course, you will be doing a complete audit for a company called ExampleCorp. The project will involve:
+
+1) Social Engineering
+2) Open-source intelligence
+3) Vulnerability assessment using automated tools
+4) Manual auditing of systems and apps
+
+The project won't be easy because it will test a lot of the skills you will be developing in this course including:
+
+1) Chaining vulnerabilities together,
+2) Modifying exploit code
+3) Reading documentation to learn new tests
+
+This project might sound challenging, now, but by the end of the course, you will be completely ready for it.
+
+I think you'll be amazed by how much you learn.
